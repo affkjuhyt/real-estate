@@ -1,7 +1,11 @@
+import ContactHeroSection from "@/components/ContactHeroSection";
+import InquireAboutSection from "@/components/InquireAboutSection";
+
 export default function ContactUs() {
     return (
-        <>
-            <h1>Contact Us</h1>
-        </>
+        <div>
+            <ContactHeroSection></ContactHeroSection>
+            <InquireAboutSection></InquireAboutSection>
+        </div>
     )
 }

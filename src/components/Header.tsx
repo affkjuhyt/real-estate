@@ -15,7 +15,7 @@ const loanTypes = [
 const navigation = [
   { name: 'About Us', href: '/about-us' },
   { name: 'Type Of Loans', href: '#', dropdown: true, items: loanTypes },
-  { name: 'Contact Us', href: '#' },
+  { name: 'Contact Us', href: '/contact-us' },
 ]
 
 
