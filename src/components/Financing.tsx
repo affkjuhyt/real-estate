@@ -1,6 +1,6 @@
 export default function Financing() {
     return (
-      <div className="bg-white">
+      <div className="bg-[#F7F8F8]">
         <div className="px-6 py-24 sm:px-6 sm:py-24 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-balance text-3xl font-semibold tracking-tight text-gray-900 sm:text-3xl uppercase">
