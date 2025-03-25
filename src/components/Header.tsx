@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -11,7 +13,7 @@ const loanTypes = [
 ]
 
 const navigation = [
-  { name: 'About Us', href: '#' },
+  { name: 'About Us', href: '/about-us' },
   { name: 'Type Of Loans', href: '#', dropdown: true, items: loanTypes },
   { name: 'Contact Us', href: '#' },
 ]
@@ -44,18 +46,18 @@ export default function Header() {
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <div key={item.name} className="relative group">
-              <a href={item.href} className="text-sm/6 font-semibold text-gray-900 uppercase">
+              <a href={item.href} className="text-sm/6 font-semibold text-gray-900 uppercase transition-colors duration-200 hover:text-[#FA7F28]">
                 {item.name}
               </a>
               {item.dropdown && (
-                <div className="absolute hidden group-hover:block w-64 pt-4 left-1/2 -translate-x-1/2">
+                <div className="absolute hidden group-hover:block w-64 pt-4 left-1/2 -translate-x-1/2 transition-all duration-300 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0">
                   <div className="bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div className="py-1">
                       {item.items?.map((subItem) => (
                         <a
                           key={subItem.name}
                           href={subItem.href}
-                          className="uppercase block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                          className="uppercase block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#FA7F28] transition-colors duration-200"
                         >
                           {subItem.name}
                         </a>
