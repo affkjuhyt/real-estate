@@ -11,13 +11,13 @@ export default function Financing() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="/contact-us"
                 className="rounded-md bg-[#FA7F28] px-6 py-4 text-sm font-semibold text-white shadow-sm inline-flex items-center group transition-all duration-300 hover:px-8"
               >
                 Contact us
               </a>
               <a
-                href="#"
+                href="/apply-now"
                 className="rounded-md bg-[#FA7F28] px-6 py-4 text-sm font-semibold text-white shadow-sm inline-flex items-center group transition-all duration-300 hover:px-8"
               >
                 Get approval today

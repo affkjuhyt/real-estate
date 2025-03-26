@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function LoanProgramsSection() {
   return (
     <div className="bg-white py-24 sm:py-32">
@@ -22,9 +24,12 @@ export default function LoanProgramsSection() {
               <h3 className="text-sm text-gray-600 mb-6 sm:text-base">
                 Purchase, Rehab and Resell Your Property
               </h3>
-              <button className="mt-auto bg-[#FA7F28] text-white font-medium text-sm py-2 px-4 rounded hover:bg-[#e06a15] transition-colors">
+              <Link 
+                href="/fix-flip" 
+                className="mt-auto bg-[#FA7F28] text-white font-medium text-sm py-2 px-4 rounded hover:bg-[#e06a15] transition-colors"
+              >
                 Read More
-              </button>
+              </Link>
             </div>
 
             <div className="border border-gray-200 p-6 sm:p-10 flex flex-col rounded-lg items-center text-center shadow-sm hover:shadow-md transition-shadow">
@@ -42,9 +47,12 @@ export default function LoanProgramsSection() {
               <h3 className="text-sm text-gray-600 mb-6 sm:text-base">
                 Finance your New Construction
               </h3>
-              <button className="mt-auto bg-[#FA7F28] text-white font-medium text-sm py-2 px-4 rounded hover:bg-[#e06a15] transition-colors">
+              <Link 
+                href="/ground-up-construction" 
+                className="mt-auto bg-[#FA7F28] text-white font-medium text-sm py-2 px-4 rounded hover:bg-[#e06a15] transition-colors"
+              >
                 Read More
-              </button>
+              </Link>
             </div>
 
             <div className="border border-gray-200 p-6 sm:p-10 flex flex-col rounded-lg items-center text-center shadow-sm hover:shadow-md transition-shadow">
@@ -60,9 +68,12 @@ export default function LoanProgramsSection() {
               <h3 className="text-sm text-gray-600 mb-6 sm:text-base">
                 Purchase, refinance or cash out
               </h3>
-              <button className="mt-auto bg-[#FA7F28] text-white font-medium text-sm py-2 px-4 rounded hover:bg-[#e06a15] transition-colors">
+              <Link 
+                href="/bridge-loan" 
+                className="mt-auto bg-[#FA7F28] text-white font-medium text-sm py-2 px-4 rounded hover:bg-[#e06a15] transition-colors"
+              >
                 Read More
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -81,9 +92,12 @@ export default function LoanProgramsSection() {
               <h3 className="text-sm text-gray-600 mb-6 sm:text-base">
                 Buy and refinance your rental property
               </h3>
-              <button className="mt-auto bg-[#FA7F28] text-white font-medium text-sm py-2 px-4 rounded hover:bg-[#e06a15] transition-colors">
+              <Link 
+                href="/dscr" 
+                className="mt-auto bg-[#FA7F28] text-white font-medium text-sm py-2 px-4 rounded hover:bg-[#e06a15] transition-colors"
+              >
                 Read More
-              </button>
+              </Link>
             </div>
 
             <div className="border border-gray-200 p-6 sm:p-10 flex flex-col rounded-lg items-center text-center shadow-sm hover:shadow-md transition-shadow">
@@ -100,9 +114,12 @@ export default function LoanProgramsSection() {
               <h3 className="text-sm text-gray-600 mb-6 sm:text-base">
                 Financing process for multifamily projects
               </h3>
-              <button className="mt-auto bg-[#FA7F28] text-white font-medium text-sm py-2 px-4 rounded hover:bg-[#e06a15] transition-colors">
+              <Link 
+                href="/multifamily-project-financing" 
+                className="mt-auto bg-[#FA7F28] text-white font-medium text-sm py-2 px-4 rounded hover:bg-[#e06a15] transition-colors"
+              >
                 Read More
-              </button>
+              </Link>
             </div>
           </div>
         </div>

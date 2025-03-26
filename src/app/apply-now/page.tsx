@@ -1,7 +1,9 @@
+import ApplyFormSection from "@/components/ApplyFormSection";
+
 export default function ApplyNow() {
     return (
-        <>
-        <h1>Apply Now</h1>
-        </>
+        <div>
+            <ApplyFormSection></ApplyFormSection>
+        </div>
     )
 }

@@ -1,3 +1,7 @@
+'use client'
+
+import { useState } from 'react';
+
 const people = [
   {
     name: "Leslie Alexander",
@@ -58,6 +62,8 @@ const people = [
 ];
 
 export default function OurTeamSection() {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -76,7 +82,8 @@ export default function OurTeamSection() {
               <img
                 alt=""
                 src={person.imageUrl}
-                className="aspect-[14/13] w-full rounded-2xl object-cover"
+                className="aspect-[14/13] w-full rounded-2xl object-cover cursor-pointer"
+                onClick={() => setSelectedImage(person.imageUrl)}
               />
               <h3 className="mt-6 text-lg/8 font-semibold tracking-tight text-black">
                 {person.name}
@@ -87,6 +94,31 @@ export default function OurTeamSection() {
           ))}
         </ul>
       </div>
+
+      {/* Image Modal */}
+      {selectedImage && (
+        <div 
+          className="fixed inset-0 backdrop-blur-sm bg-black/30 flex items-center justify-center z-50 p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <div className="relative max-w-2xl w-full">
+            <img
+              src={selectedImage}
+              alt="Team member"
+              className="w-full h-auto rounded-lg shadow-xl"
+              onClick={(e) => e.stopPropagation()}
+            />
+            <button
+              className="absolute -top-2 -right-2 text-white bg-black/50 rounded-full p-2 hover:bg-black/75 transition-colors"
+              onClick={() => setSelectedImage(null)}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

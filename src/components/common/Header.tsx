@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Image from 'next/image'
+import logo from '../../../public/logo-real-estate.jpg'
 
 const loanTypes = [
     { name: ' Flip loans', href: '/fix-flip' },
@@ -27,11 +29,13 @@ export default function Header() {
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <a href="#" className="-m-1.5 p-1.5">
           <span className="sr-only">Your Company</span>
-          <img
-            alt=""
-            src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-            className="h-8 w-auto"
-          />
+          <a href='/'>
+            <Image
+              alt="logo"
+              src={logo}
+              className="h-8 w-auto"
+            />
+          </a>
         </a>
         <div className="flex lg:hidden">
           <button

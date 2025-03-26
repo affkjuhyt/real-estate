@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import logo from '../../../public/logo-real-estate.jpg'
+
 const navigation = {
   solutions: [
     { name: "12000 Biscayne Blvd Suite 400 Miami, FL 33181, United States", href: "#" },
@@ -5,11 +8,11 @@ const navigation = {
     { name: "+1 (305) 381-0153", href: "#" },
   ],
   legal: [
-    { name: "About Us", href: "#" },
-    { name: "Contact Us", href: "#" },
-    { name: "Apply Now", href: "#" },
-    { name: "Privacy Policy", href: "#" },
-    { name: "Access Portal", href: "#" },
+    { name: "About Us", href: "/about-us" },
+    { name: "Contact Us", href: "/contact-us" },
+    { name: "Apply Now", href: "/apply-now" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Access Portal", href: "/access-portal" },
   ],
 };
 
@@ -19,11 +22,13 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           <div>
-            <img
-              alt="Company name"
-              src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-              className="h-12 mb-8"
-            />
+            <a href="/">
+              <Image
+                alt="Company name"
+                src={logo}
+                className="h-8 w-8 mb-8 object-contain"
+              />
+            </a>
             <h3 className="text-sm/4 font-semibold text-gray-900 mb-6 uppercase">
               Address
             </h3>
