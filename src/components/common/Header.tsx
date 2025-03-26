@@ -5,16 +5,16 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const loanTypes = [
-    { name: 'Fix & Flip loans', href: '#' },
-    { name: 'Bridge loan', href: '#' },
-    { name: 'Ground Up Construction Loans', href: '#' },
-    { name: 'DSCR Loans', href: '#' },
-    { name: 'Multifamily Project Financing', href: '#' },
+    { name: ' Flip loans', href: '/fix-flip' },
+    { name: 'Bridge loan', href: '/bridge-loan' },
+    { name: 'Ground Up Construction Loans', href: '/ground-up-construction' },
+    { name: 'DSCR Loans', href: '/dscr' },
+    { name: 'Multifamily Project Financing', href: '/multifamily-project-financing' },
 ]
 
 const navigation = [
   { name: 'About Us', href: '/about-us' },
-  { name: 'Type Of Loans', href: '#', dropdown: true, items: loanTypes },
+  { name: 'Type Of Loans', dropdown: true, items: loanTypes },
   { name: 'Contact Us', href: '/contact-us' },
 ]
 

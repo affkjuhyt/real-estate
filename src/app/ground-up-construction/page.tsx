@@ -1,7 +1,13 @@
+import Financing from "@/components/common/Financing";
+import GroupUpConstructionSection from "@/components/content/GroupUpConstructionSection";
+import FaqGroupUpConstructionSection from "@/components/faq/FaqGroupUpConstructionSection";
+
 export default function GroundUpConstruction() {
     return (
-        <>
-            <h1>Ground Up Construction</h1>
-        </>
+        <div>
+            <GroupUpConstructionSection></GroupUpConstructionSection>
+            <FaqGroupUpConstructionSection></FaqGroupUpConstructionSection>
+            <Financing></Financing>
+        </div>
     )
 }
