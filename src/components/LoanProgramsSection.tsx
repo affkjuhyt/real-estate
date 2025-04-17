@@ -19,7 +19,7 @@ export default function LoanProgramsSection() {
                 height={48}
                 className="max-h-12 w-full object-contain"
               />
-              <h2 className="mt-4 text-xl font-semibold uppercase sm:text-2xl">Fix & Flip loan</h2>
+              <h2 className="mt-4 text-xl font-semibold uppercase sm:text-2xl text-black">Fix & Flip loan</h2>
               <h3 className="text-sm text-[#FA7F28] uppercase font-medium sm:text-base">Short term</h3>
               <h3 className="text-sm text-gray-600 mb-6 sm:text-base">
                 Purchase, Rehab and Resell Your Property
@@ -40,7 +40,7 @@ export default function LoanProgramsSection() {
                 height={48}
                 className="max-h-12 w-full object-contain"
               />
-              <h2 className="mt-4 text-xl font-semibold uppercase sm:text-2xl">
+              <h2 className="mt-4 text-xl font-semibold uppercase sm:text-2xl text-black">
                 Ground up constructions loan
               </h2>
               <h3 className="text-sm text-[#FA7F28] uppercase font-medium sm:text-base">Short term</h3>
@@ -63,7 +63,7 @@ export default function LoanProgramsSection() {
                 height={48}
                 className="max-h-12 w-full object-contain"
               />
-              <h2 className="mt-4 text-xl font-semibold uppercase sm:text-2xl">Bridge loan</h2>
+              <h2 className="mt-4 text-xl font-semibold uppercase sm:text-2xl text-black">Bridge loan</h2>
               <h3 className="text-sm text-[#FA7F28] uppercase font-medium sm:text-base">Short term</h3>
               <h3 className="text-sm text-gray-600 mb-6 sm:text-base">
                 Purchase, refinance or cash out
@@ -87,7 +87,7 @@ export default function LoanProgramsSection() {
                 height={48}
                 className="max-h-12 w-full object-contain"
               />
-              <h2 className="mt-4 text-xl font-semibold uppercase sm:text-2xl">Dscr loan</h2>
+              <h2 className="mt-4 text-xl font-semibold uppercase sm:text-2xl text-black">Dscr loan</h2>
               <h3 className="text-sm text-[#FA7F28] uppercase font-medium sm:text-base">Short term</h3>
               <h3 className="text-sm text-gray-600 mb-6 sm:text-base">
                 Buy and refinance your rental property
@@ -108,7 +108,7 @@ export default function LoanProgramsSection() {
                 height={48}
                 className="max-h-12 w-full object-contain"
               />
-              <h2 className="mt-4 text-xl font-semibold uppercase sm:text-2xl">
+              <h2 className="mt-4 text-xl font-semibold uppercase sm:text-2xl text-black">
                 Multifamily project financing
               </h2>
               <h3 className="text-sm text-gray-600 mb-6 sm:text-base">
