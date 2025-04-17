@@ -1,22 +1,24 @@
 'use client'
 
+import { useTranslations } from 'next-intl';
 import { useState } from 'react';
-
-const people = [
-  {
-    name: "Anjin Ho",
-    role: "Managing Partner",
-    imageUrl: "/Managing Partner.jpeg",
-  },
-  {
-    name: "Trung",
-    role: "Co-Founder",
-    imageUrl: "/Co-Founder.jpeg",
-  },
-];
 
 export default function OurTeamSection() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const t = useTranslations('about');
+
+  const people = [
+    {
+      name: "Anjin Ho",
+      role: t('manage_partner'),
+      imageUrl: "/Managing Partner.jpeg",
+    },
+    {
+      name: "Trung",
+      role: t('co_founder'),
+      imageUrl: "/Co-Founder.jpeg",
+    },
+  ];
 
   return (
     <div className="bg-white py-24 sm:py-32">
@@ -24,7 +26,7 @@ export default function OurTeamSection() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="flex items-center gap-4 text-2xl font-semibold tracking-tight text-[#FA7F28] sm:text-3xl">
             <div className="h-[2px] w-8 bg-[#FA7F28]"></div>
-            Our team
+            {t('our_team')}
           </h2>
         </div>
         <ul

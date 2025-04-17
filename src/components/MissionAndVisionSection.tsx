@@ -1,17 +1,19 @@
-const features = [
-  {
-    name: "Mission",
-    description:
-      "Our goal is to be the preferred and trusted partner for both US and international real estate investors, while valuing the importance of our employees and borrowers. We aim to offer seamless and expedited financing solutions that lead to profitable investments.",
-  },
-  {
-    name: "Vision",
-    description:
-      "We strive to provide real estate investors with a quicker and more seamless loan experience, maximizing their profits and ensuring peace of mind, all while staying true to our core values of integrity, collaboration, and excellence.",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export default function MissionAndVisionSection() {
+  const t = useTranslations('about');
+
+  const features = [
+    {
+      name: t('mission_title'),
+      description: t('mission_content'),
+    },
+    {
+      name: t('vision_title'),
+      description: t('vision_content'),
+    },
+  ];
+
   return (
     <div className="bg-[#F7F8F8] py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">

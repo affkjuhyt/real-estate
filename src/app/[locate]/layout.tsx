@@ -22,11 +22,12 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
-  params: { locale = 'en' }
+  params
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{locale: string}>;
 }) {
+  const { locale } = await params;
   let messages;
   try {
     messages = (await import(`../../../messages/en.json`)).default;
@@ -37,7 +38,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={null}>
           <Header />
           <main>{children}</main>
           <Footer />

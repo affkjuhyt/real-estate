@@ -7,5 +7,21 @@
     "home": "Home",
     "about": "About",
     "contact": "Contact"
+  },
+  "about": {
+    "title": "About Us",
+    "first_content": "Headquartered in Southern California with over 20 years of combined experience in real estate investment financing. At Sapience Capital, we believe that a strong company culture is the foundation of our success. By fostering a collaborative and client-focused environment, we empower our team to provide an exceptional experience for our investors. Whether you are an experienced developer expanding your U.S. portfolio or an investor seeking strategic financing, our expertise, integrity, and innovative approach set us apart in the real estate investment and lending industry.",
+    "second_content": "Sapience Capital specializes in providing tailored loan solutions for foreign investors and developers looking to navigate the U.S. real estate market with ease. We understand the unique challenges international clients face when securing financing through traditional banks, which is why we offer a streamlined, flexible approach to funding. From bridge loans and DSCR loans to fixed and reversible loans and ground-up construction financing, we are committed to delivering fast, reliable, and customized lending solutions.",
+    "third_content": "Our team’s dedication to excellence ensures every transaction is seamless, efficient, and tailored to the unique needs of international clients. With cutting-edge tools, in-depth market knowledge, and a commitment to outstanding service, we simplify the lending process—helping you turn your U.S. real estate investment goals into reality.",
+    "mission_title": "Mission",
+    "mission_content": "Our goal is to be the preferred and trusted partner for both US and international real estate investors, while valuing the importance of our employees and borrowers. We aim to offer seamless and expedited financing solutions that lead to profitable investments.",
+    "vision_title": "Vision",
+    "vision_content": "We strive to provide real estate investors with a quicker and more seamless loan experience, maximizing their profits and ensuring peace of mind, all while staying true to our core values of integrity, collaboration, and excellence.",
+    "contact_us_title": "Sapience Capital is not just a lender; we are your dedicated partner, committed to bringing your projects to life.",
+    "contact_us_head": "ARE YOU READY TO WORK WITH US?",
+    "contact_us_button": "Contact us",
+    "our_team": "Our team",
+    "manage_partner": "Managing Partner",
+    "co_founder": "Co-Founder"
   }
 }
