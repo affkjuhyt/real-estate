@@ -35,7 +35,7 @@ export default function Header() {
             <Image
               alt="logo"
               src={logo}
-              className="h-8 w-auto"
+              className="h-12 w-auto"
             />
           </a>
         </a>

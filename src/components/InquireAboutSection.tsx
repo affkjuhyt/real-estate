@@ -177,9 +177,14 @@ export default function InquireAboutSection() {
                   <BuildingOffice2Icon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  545 Mavis Island
-                  <br />
-                  Chicago, IL 99191
+                  <a 
+                    href="https://www.google.com/maps/search/?api=1&query=2102+Business+Center+Drive+Irvine+CA+92612"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-gray-900"
+                  >
+                    2102 Business Center Drive, Irvine, CA 92612
+                  </a>
                 </dd>
               </div>
               <div className="flex gap-x-4">
@@ -188,8 +193,8 @@ export default function InquireAboutSection() {
                   <PhoneIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <a href="tel:+1 (555) 234-5678" className="hover:text-gray-900">
-                    +1 (555) 234-5678
+                  <a href="tel:+1 (714) 462-7882" className="hover:text-gray-900">
+                    +1 (714) 462-7882
                   </a>
                 </dd>
               </div>
@@ -199,8 +204,8 @@ export default function InquireAboutSection() {
                   <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <a href="mailto:hello@example.com" className="hover:text-gray-900">
-                    hello@example.com
+                  <a href="mailto:info@sapiencecapital.us" className="hover:text-gray-900">
+                    info@sapiencecapital.us
                   </a>
                 </dd>
               </div>

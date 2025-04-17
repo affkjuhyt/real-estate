@@ -3,9 +3,9 @@ import logo from '../../../public/logo-real-estate.jpeg'
 
 const navigation = {
   solutions: [
-    { name: "12000 Biscayne Blvd Suite 400 Miami, FL 33181, United States", href: "#" },
-    { name: "info@altocapital.com", href: "#" },
-    { name: "+1 (305) 381-0153", href: "#" },
+    { name: "2102 Business Center Drive, Irvine, CA 92612", type: 'address', href: "#" },
+    { name: "info@sapiencecapital.us", type: 'email', href: "#" },
+    { name: "714-462-7882", type: 'phone', href: "#" },
   ],
   legal: [
     { name: "About Us", href: "/about-us" },
@@ -26,7 +26,7 @@ export default function Footer() {
               <Image
                 alt="Company name"
                 src={logo}
-                className="h-8 w-8 mb-8 object-contain"
+                className="h-12 w-12 mb-8 object-contain"
               />
             </a>
             <h3 className="text-sm/4 font-semibold text-gray-900 mb-6 uppercase">
@@ -36,8 +36,18 @@ export default function Footer() {
               {navigation.solutions.map((item) => (
                 <li key={item.name}>
                   <a
-                    href={item.href}
+                    href={
+                      item.type === 'address'
+                        ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.name)}`
+                        : item.type === 'email'
+                        ? `mailto:${item.name}`
+                        : item.type === 'phone'
+                        ? `tel:${item.name.replace(/[^\d+]/g, '')}`
+                        : item.href
+                    }
                     className="text-sm/6 text-gray-600 hover:text-gray-900"
+                    target={item.type === 'address' ? '_blank' : undefined}
+                    rel={item.type === 'address' ? 'noopener noreferrer' : undefined}
                   >
                     {item.name}
                   </a>
@@ -65,7 +75,7 @@ export default function Footer() {
 
         <div className="mt-16 border-t border-gray-400 pt-8">
           <p className="text-center text-sm text-gray-600">
-            ALL RIGHTS RESERVED. © Sapience Capital 2025. Miami, Florida. | DESIGNED BY M3DIGISMART
+            ALL RIGHTS RESERVED. © Sapience Capital 2025. Irvine, CA. | DESIGNED BY SAPIENCE
           </p>
         </div>
       </div>
