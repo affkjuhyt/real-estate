@@ -20,7 +20,7 @@ const faqs = [
   {
     question: "Can I settle my bridge loan ahead of schedule without incurring extra charges?",
     answer:
-      "Certainly! At Alto Capital, we don’t impose any penalties for settling your loan ahead of its due date.",
+      "Certainly! At Sapience Capital, we don’t impose any penalties for settling your loan ahead of its due date.",
   },
   {
     question: "Can I consider refinancing my bridge loan?",
@@ -30,7 +30,7 @@ const faqs = [
   {
     question: "What if the asset I intend to offload (e.g., my residence) is sold after the bridge loan's due date?",
     answer:
-      "At Alto Capital, we recommend reaching out to us a month before your loan’s expiration. We’ll guide you through the best alternatives, which might involve prolonging your current loan or opting for a different financing solution.",
+      "At Sapience Capital, we recommend reaching out to us a month before your loan’s expiration. We’ll guide you through the best alternatives, which might involve prolonging your current loan or opting for a different financing solution.",
   },
 ]
 

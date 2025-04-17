@@ -65,7 +65,7 @@ export default function Footer() {
 
         <div className="mt-16 border-t border-gray-400 pt-8">
           <p className="text-center text-sm text-gray-600">
-            ALL RIGHTS RESERVED. © Alto Capital 2024. Miami, Florida. | DESIGNED BY M3DIGISMART
+            ALL RIGHTS RESERVED. © Sapience Capital 2025. Miami, Florida. | DESIGNED BY M3DIGISMART
           </p>
         </div>
       </div>

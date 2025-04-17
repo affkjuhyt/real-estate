@@ -32,9 +32,9 @@ export default function AboutSection() {
             <span className="h-[2px] w-12 bg-[#FA7F28] inline-block"></span>
             ABOUT US
           </h2>
-          <h2 className='uppercase text-3xl font-bold text-black text-center mt-4'>Accelerate Your Real Estate Investments with Alto Capital, Your Premier Private Money Lender in the USA</h2>
+          <h2 className='uppercase text-3xl font-bold text-black text-center mt-4'>Accelerate Your Real Estate Investments with Sapience Capital, Your Premier Private Money Lender in the USA</h2>
           <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8 text-center">
-            Based in Miami with over 15 years of combined experience in real estate investment loans, <span className="text-gray-700 font-semibold">Alto Capital</span> provides loans to seasoned real estate investors and developers seeking to bypass the complexities of traditional banks and secure smoother financing. From bridge loans, fixed and reversible loans, ground-up construction loans, to DSCR loans, <span className="text-gray-700 font-semibold">Alto Capital</span> stands out as a reliable and secure partner for your next investment.
+            Based in Miami with over 15 years of combined experience in real estate investment loans, <span className="text-gray-700 font-semibold">Sapience Capital</span> provides loans to seasoned real estate investors and developers seeking to bypass the complexities of traditional banks and secure smoother financing. From bridge loans, fixed and reversible loans, ground-up construction loans, to DSCR loans, <span className="text-gray-700 font-semibold">Sapience Capital</span> stands out as a reliable and secure partner for your next investment.
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-7xl grid-cols-1 gap-4 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">

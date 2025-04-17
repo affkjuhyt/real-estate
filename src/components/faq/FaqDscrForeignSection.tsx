@@ -30,7 +30,7 @@ const faqs = [
   {
     question: "Do you offer financial counseling to help me better grasp my DSCR and its impact on my borrowing capacity?",
     answer:
-      "Absolutely! Alto Capital has a team of financial experts ready to assist you in making informed decisions about our loans.",
+      "Absolutely! Sapience Capital has a team of financial experts ready to assist you in making informed decisions about our loans.",
   },
 ]
 

@@ -52,7 +52,7 @@ export default function MultifamilyProjectSection() {
               <p className="mt-2 text-lg/8 text-gray-600">
                 At{" "}
                 <span className="font-semibold text-gray-700">
-                  Alto Capital
+                  Sapience Capital
                 </span>{" "}
                 we provide a comprehensive advisory service designed to simplify
                 and optimize the financing process for multifamily projects

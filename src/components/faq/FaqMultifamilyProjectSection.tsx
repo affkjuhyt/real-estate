@@ -10,7 +10,7 @@ const faqs = [
   {
     question: "Can I apply for a 'Fix and Flip' loan for commercial properties, or is it exclusive to residential ones?",
     answer:
-      "At Alto Capital, “Fix and Flip” loans are exclusively available for residential properties.",
+      "At Sapience Capital, “Fix and Flip” loans are exclusively available for residential properties.",
   },
   {
     question: "What happens if I cannot sell the property after renovation or wish to retain it?",
@@ -30,7 +30,7 @@ const faqs = [
   {
     question: "Are there any penalties for early payments or settling the 'Fix and Flip' loan ahead of schedule?",
     answer:
-      "No. At Alto Capital, we don’t levy any penalties for early payments or for settling the loan before its due date.",
+      "No. At Sapience Capital, we don’t levy any penalties for early payments or for settling the loan before its due date.",
   },
 ]
 
