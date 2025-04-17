@@ -1,8 +1,12 @@
+'use client';
+
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
+import { useTranslations } from "next-intl";
 import { useState, useEffect } from "react";
 
 export default function Hero() {
   const [currentImage, setCurrentImage] = useState(1);
+  const t = useTranslations('home');
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -24,8 +28,7 @@ export default function Hero() {
           <div className="grid grid-cols-2">
             <div className="col-span-1">
               <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-4xl">
-                Real Estate Investment and Private Lending - Your Path to
-                Profitable Peace of Mind
+                {t('title')}
               </h1>
               <div className="mt-6">
                 <p className="text-pretty text-lg font-semibold text-white sm:text-xl/8">
