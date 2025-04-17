@@ -25,21 +25,20 @@ export default async function RootLayout({
   params
 }: {
   children: React.ReactNode;
-  params: Promise<{locale: string}>;
+  params: Promise<{locate: string}>; // Change 'locale' to 'locate'
 }) {
-  const { locale } = await params;
+  const data = await params;
+  const locale = data['locate']; // Access 'locate' instead of 'locale'
   let messages;
-  try {
-    messages = (await import(`../../../messages/en.json`)).default;
-  } catch (error) {
-    messages = {}; // Fallback to empty messages
-  }
+  messages = await import(`../../../messages/${locale}.json`);
+
+  const header = messages['header'];
 
   return (
     <html lang={locale}>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <NextIntlClientProvider locale={locale} messages={null}>
-          <Header />
+          <Header header={header} />
           <main>{children}</main>
           <Footer />
         </NextIntlClientProvider>

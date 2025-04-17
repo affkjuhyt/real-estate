@@ -22,6 +22,30 @@
     "contact_us_button": "Contact us",
     "our_team": "Our team",
     "manage_partner": "Managing Partner",
-    "co_founder": "Co-Founder"
+    "co_founder": "Co-Founder",
+    "finance_title": "Need financing for your real estate project?",
+    "finance_head": "Don't waste any more time",
+    "finance_button": "Contact us",
+    "apply_now": "Get approval today"
+  },
+  "footer": {
+    "address": "ADDRESS",
+    "link": "LINKS",
+    "about_us": "About Us",
+    "contact_us": "Contact Us",
+    "apply_now": "Apply Now",
+    "privacy_policy": "Privacy Policy",
+    "access_portal": "Access Portal"
+  },
+  "header": {
+    "about_us": "About Us",
+    "services": "Services",
+    "loans_programs": "Loans Programs",
+    "contact_us": "Contact Us",
+    "filp_loans": "Flip Loans",
+    "bridge_loans": "Bridge Loans",
+    "ground_up_construction_loans": "Ground Up Construction Loans",
+    "dscr_loans": "DSCR Loans",
+    "dscr_loans_foreign": "DSCR Loans (Foreign National)"
   }
 }

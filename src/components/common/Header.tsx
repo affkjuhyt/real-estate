@@ -6,30 +6,32 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import { useLocale } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import logo from '../../../public/logo-real-estate.jpeg'
 
-const loanTypes = [
-    { name: ' Flip loans', href: '/fix-flip' },
-    { name: 'Bridge loan', href: '/bridge-loan' },
-    { name: 'Ground Up Construction Loans', href: '/ground-up-construction' },
-    { name: 'DSCR Loans', href: '/dscr' },
-    { name: 'DSCR LOANS (FOREIGN NATIONAL)', href: '/dscr-foreign' },
-]
 
-const navigation = [
-  { name: 'About Us', href: '/about-us' },
-  { name: 'Services', href: '/services' },
-  { name: 'Loans Programs', dropdown: true, items: loanTypes },
-  { name: 'Contact Us', href: '/contact-us' },
-]
-
-
-export default function Header() {
+export default function Header({header}) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const pathname = usePathname()
   const router = useRouter()
   const locale = useLocale()
+
+  console.log("header", header);
+
+  const loanTypes = [
+      { name: 'Flip loans', href: '/fix-flip' },
+      { name: 'Bridge loan', href: '/bridge-loan' },
+      { name: 'Ground Up Construction Loans', href: '/ground-up-construction' },
+      { name: 'DSCR Loans', href: '/dscr' },
+      { name: 'DSCR LOANS (FOREIGN NATIONAL)', href: '/dscr-foreign' },
+  ]
+
+  const navigation = [
+    { name: header['about_us'], href: '/about-us' },
+    { name: header['services'], href: '/services' },
+    { name: header['loans_programs'], dropdown: true, items: loanTypes },
+    { name: header['contact_us'], href: '/contact-us' },
+  ]
 
   const handleLanguageChange = (newLocale: string) => {
     // Remove the current locale from the pathname

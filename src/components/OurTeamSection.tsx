@@ -1,21 +1,20 @@
 'use client'
 
-import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 
-export default function OurTeamSection() {
+export default function OurTeamSection({ messages }) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const t = useTranslations('about');
 
+  console.log(messages)
   const people = [
     {
       name: "Anjin Ho",
-      role: t('manage_partner'),
+      role: messages['about']['manage_partner'],
       imageUrl: "/Managing Partner.jpeg",
     },
     {
       name: "Trung",
-      role: t('co_founder'),
+      role: messages['about']['co_founder'],
       imageUrl: "/Co-Founder.jpeg",
     },
   ];
@@ -26,7 +25,7 @@ export default function OurTeamSection() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="flex items-center gap-4 text-2xl font-semibold tracking-tight text-[#FA7F28] sm:text-3xl">
             <div className="h-[2px] w-8 bg-[#FA7F28]"></div>
-            {t('our_team')}
+            {messages['about']['our_team']}
           </h2>
         </div>
         <ul

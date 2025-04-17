@@ -1,22 +1,25 @@
 import Image from 'next/image';
 import logo from '../../../public/logo-real-estate.jpeg'
-
-const navigation = {
-  solutions: [
-    { name: "2102 Business Center Drive, Irvine, CA 92612", type: 'address', href: "#" },
-    { name: "info@sapiencecapital.us", type: 'email', href: "#" },
-    { name: "714-462-7882", type: 'phone', href: "#" },
-  ],
-  legal: [
-    { name: "About Us", href: "/about-us" },
-    { name: "Contact Us", href: "/contact-us" },
-    { name: "Apply Now", href: "/apply-now" },
-    { name: "Privacy Policy", href: "/privacy-policy" },
-    { name: "Access Portal", href: "/access-portal" },
-  ],
-};
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
+  const t = useTranslations('footer');
+
+  const navigation = {
+    solutions: [
+      { name: "2102 Business Center Drive, Irvine, CA 92612", type: 'address', href: "#" },
+      { name: "info@sapiencecapital.us", type: 'email', href: "#" },
+      { name: "714-462-7882", type: 'phone', href: "#" },
+    ],
+    legal: [
+      { name: t("about_us"), href: "/about-us" },
+      { name: t("contact_us"), href: "/contact-us" },
+      { name: t("apply_now"), href: "/apply-now" },
+      { name: t("privacy_policy"), href: "/privacy-policy" },
+      { name: t("access_portal"), href: "/access-portal" },
+    ],
+  };
+
   return (
     <footer className="bg-[#D1D1D1]">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-8">
@@ -30,7 +33,7 @@ export default function Footer() {
               />
             </a>
             <h3 className="text-sm/4 font-semibold text-gray-900 mb-6 uppercase">
-              Address
+              {t('address')}
             </h3>
             <ul role="list" className="space-y-4">
               {navigation.solutions.map((item) => (
@@ -57,7 +60,7 @@ export default function Footer() {
           </div>
 
           <div className="lg:pl-16">
-            <h3 className="text-sm/4 font-semibold text-gray-900 mb-6 uppercase">Links</h3>
+            <h3 className="text-sm/4 font-semibold text-gray-900 mb-6 uppercase">{t('link')}</h3>
             <ul role="list" className="space-y-4">
               {navigation.legal.map((item) => (
                 <li key={item.name}>

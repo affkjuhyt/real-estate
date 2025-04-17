@@ -22,6 +22,30 @@
     "contact_us_button": "LIÊN HỆ VỚI CHÚNG TÔI",
     "our_team": "Đội ngũ của chúng tôi",
     "manage_partner": "Quản lý đối tác",
-    "co_founder": "Đồng sáng lập"
+    "co_founder": "Đồng sáng lập",
+    "finance_title": "Cần tài trợ cho dự án bất động sản của bạn?",
+    "finance_head": "Đừng lãng phí thêm thời gian",
+    "finance_button": "Liên hệ với chúng tôi",
+    "apply_now": "Ứng tuyển ngay"
+  },
+  "footer": {
+    "address": "Địa chỉ",
+    "link": "Liên kết",
+    "about_us": "Giới thiệu",
+    "contact_us": "Liên hệ",
+    "apply_now": "Ứng tuyển ngay",
+    "privacy_policy": "Chính sách bảo mật",
+    "access_portal": "Trang truy cập"
+  },
+  "header": {
+    "about_us": "Về chúng tôi",
+    "services": "Dịch vụ",
+    "loans_programs": "Chương trình cho vay",
+    "contact_us": "Liên hệ",
+    "filp_loans": "Khoản vay đầu tư lật",
+    "bridge_loans": "Khoản vay chuyển tiếp",
+    "ground_up_construction_loans": "Khoản vay xây dựng từ đầu",
+    "dscr_loans": "Khoản vay DSCR",
+    "dscr_loans_foreign": "Khoản vay DSCR (Nhà đầu tư nước ngoài)"
   }
 }
