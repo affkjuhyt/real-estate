@@ -4,19 +4,21 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
-import logo from '../../../public/logo-real-estate.jpg'
+import logo from '../../../public/logo-real-estate.jpeg'
 
 const loanTypes = [
     { name: ' Flip loans', href: '/fix-flip' },
     { name: 'Bridge loan', href: '/bridge-loan' },
     { name: 'Ground Up Construction Loans', href: '/ground-up-construction' },
     { name: 'DSCR Loans', href: '/dscr' },
-    { name: 'Multifamily Project Financing', href: '/multifamily-project-financing' },
+    { name: 'DSCR LOANS (FOREIGN NATIONAL)', href: '/dscr-foreign' },
+    // { name: 'Multifamily Project Financing', href: '/multifamily-project-financing' },
 ]
 
 const navigation = [
   { name: 'About Us', href: '/about-us' },
-  { name: 'Type Of Loans', dropdown: true, items: loanTypes },
+  { name: 'Services', href: '/services' },
+  { name: 'Loans Programs', dropdown: true, items: loanTypes },
   { name: 'Contact Us', href: '/contact-us' },
 ]
 

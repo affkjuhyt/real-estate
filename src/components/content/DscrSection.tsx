@@ -38,10 +38,6 @@ const loanTerms = [
     content: "5 YEARS DECLINING (5% to 1%)",
   },
   {
-    title: "FOREIGN NATIONALS ACCEPTED",
-    content: "+ 0.5 to base rate",
-  },
-  {
     title: "CLOSING",
     content: "30 TO 60 DAYS",
   },
@@ -54,12 +50,11 @@ const loanRequirements = [
   "6 months liquidity/reserves",
   "Non-owner occupancy certification",
   "SSN for credit report and background check",
-  "Evidence of insurance (full replacement + 500K liability) & builder's risk insurance (if applicable)",
+  "Evidence of insurance (full replacement + 500K liability) + 6 months rental loss",
   "Minimum Fico score of 660",
   "Signed loan application",
   "Income based in rental cash flow subject to A DSCR ratio of 1:10",
   "HOA documents (only condos)",
-  "Foreign nationals: asset sourced and seasoned for 60 days in US FDIC insured bank",
 ];
 
 export default function DscrSection() {
@@ -71,28 +66,23 @@ export default function DscrSection() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-4xl uppercase">
-                DSCR LOANS: SECURE YOUR RENTAL INVESTMENTS. LONG-TERM PRIVATE
-                FINANCING FOR RENTAL PROPERTIES.
-              </p>
               <p className="text-xl mt-6 text-black font-bold uppercase">
                 What is a DSCR LOANS?
               </p>
               <p className="mt-2 text-lg/8 text-gray-600">
                 A{" "}
                 <span className="font-semibold text-gray-700">
-                  Debt Service Coverage Ratio (DSCR)
+                  DSCR (Debt Service Coverage Ratio) Loan
                 </span>{" "}
-                loan is a long-term financing option designed specifically for
-                real estate investors. It is ideal for funding a new purchase,
-                refinancing a property you own, or freeing up cash in your
-                rental portfolio to gain asset appreciation and cash flow
-                without the hassle of bank underwriting rules . This loan does
-                not require income verification or tax returns. This allows you
-                to get the most out of your investments properties.
-              </p>
-              <p className="mt-6 text-lg/8 text-gray-600">
-                Lending simplified, profits amplified.
+                is a type of loan used primarily for real estate investments
+                where the borrower’s ability to repay the loan is evaluated
+                based on the property’s income. Specifically, the <span className="font-semibold text-gray-700">DSCR</span> is a
+                financial ratio that measures the cash flow available to cover
+                debt payments (both principal and interest) on a loan. It’s an
+                important metric used by lenders to assess the risk and
+                financial stability of a borrower when they are seeking
+                financing for an income-generating property, such as rental or
+                commercial real estate.
               </p>
               <button
                 onClick={() => router.push("/apply-now")}

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo from '../../../public/logo-real-estate.jpg'
+import logo from '../../../public/logo-real-estate.jpeg'
 
 const navigation = {
   solutions: [

@@ -6,11 +6,10 @@ export default function ContactUsSection() {
       <div className="mx-auto max-w-7xl py-24 sm:py-28 px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-balance text-2xl tracking-tight text-white sm:text-2xl">
-            Alto Capital, more than a lender; your partner committed
-            to turning your projects into reality.
+          Sapience Capital is not just a lender; we are your dedicated partner, committed to bringing your projects to life.
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-2xl text-white font-bold uppercase">
-            Are you ready to work with us?
+            ARE YOU READY TO WORK WITH US?
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a

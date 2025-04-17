@@ -2,12 +2,12 @@ const features = [
   {
     name: "Mission",
     description:
-      "To be the top choice and trusted partner for US and foreign national real estate investors, while prioritizing the significance of our employees and borrowers. Also providing easier and faster financing solutions that result in profitable investments.",
+      "Our goal is to be the preferred and trusted partner for both US and international real estate investors, while valuing the importance of our employees and borrowers. We aim to offer seamless and expedited financing solutions that lead to profitable investments.",
   },
   {
     name: "Vision",
     description:
-      "To offer an easier and faster loan experience to real estate investors, maximizing their profits and ensuring peace of mind, while upholding our core values of integrity, collaboration, and excellence.",
+      "We strive to provide real estate investors with a quicker and more seamless loan experience, maximizing their profits and ensuring peace of mind, all while staying true to our core values of integrity, collaboration, and excellence.",
   },
 ];
 

@@ -27,7 +27,7 @@ const loanTerms = [
   },
   {
     title: "MAXIMUM LOAN TO VALUE",
-    content: "Up to 75%"
+    content: "Up to 75%",
   },
   {
     title: "BASE RATE",
@@ -74,26 +74,25 @@ export default function GroupUpConstructionSection() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-4xl uppercase">
-                TAILORED GROUND-UP CONSTRUCTION LOANS: YOUR BLUEPRINT TO
-                BUILDING SUCCESS
-              </p>
               <p className="text-xl mt-6 text-black font-bold uppercase">
                 WHAT IS A GROUND-UP CONSTRUCTION LOANS?
               </p>
               <p className="mt-2 text-lg/8 text-gray-600">
                 <span className="font-semibold text-gray-700">
-                  Ground-up construction loans
+                  Ground-Up Construction Loans
                 </span>{" "}
-                are designed to provide experienced builders and investors with
-                the financing they need to start from scratch and acquire land,
-                offering flexibility in assessment and a fast closing process
-                that isn't available with conventional financing.
+                are short-term, specialized loans used to finance the building
+                of a new property from the ground up, rather than for purchasing
+                or renovating an existing structure. These loans are typically
+                used by developers or builders to cover the costs of land
+                acquisition, construction materials, labor, and other expenses
+                associated with building a new residential or commercial
+                property.
               </p>
               <p className="mt-6 text-lg/8 text-gray-600">
                 At{" "}
                 <span className="font-semibold text-gray-700">
-                  Alto Capital
+                  Sapience Capital
                 </span>
                 , we tailor our programs to your experience and your project.
               </p>
