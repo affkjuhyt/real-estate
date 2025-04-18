@@ -287,5 +287,99 @@
         "answer": "Tại Sapience Capital, chúng tôi khuyên bạn nên liên hệ với chúng tôi một tháng trước khi khoản vay của bạn hết hạn. Chúng tôi sẽ hướng dẫn bạn qua các lựa chọn tốt nhất, có thể bao gồm kéo dài khoản vay hiện tại của bạn hoặc chọn một giải pháp tài chính khác."
       }
     ]
+  },
+  "ground_up_construction": {
+    "faq": [
+      {
+        "question": "Tôi có cần kinh nghiệm cải tạo hoặc xây dựng để vay 'Fix and Flip' không?",
+        "answer": "Có, điều quan trọng là phải có kinh nghiệm đã được chứng minh với ít nhất ba dự án."
+      },
+      {
+        "question": "Tôi có thể xin vay 'Fix and Flip' cho bất động sản thương mại không, hay chỉ dành riêng cho bất động sản nhà ở?",
+        "answer": "Tại Sapience Capital, các khoản vay 'Fix and Flip' chỉ dành riêng cho bất động sản nhà ở."
+      },
+      {
+        "question": "Điều gì xảy ra nếu tôi không thể bán bất động sản sau khi cải tạo hoặc muốn giữ lại nó?",
+        "answer": "Nếu bạn gặp khó khăn trong việc bán nhanh hoặc quyết định giữ lại bất động sản, bạn có thể chuyển sang khoản vay DSCR, một giải pháp tài chính dài hạn với các điều khoản thuận lợi hơn và thời gian kéo dài."
+      },
+      {
+        "question": "Một dự án 'Fix and Flip' điển hình kéo dài bao lâu?",
+        "answer": "Thời gian kéo dài tùy thuộc vào tình trạng của bất động sản và mức độ cải tạo cần thiết. Tuy nhiên, mục tiêu là bán bất động sản đã được cải tạo càng nhanh càng tốt, thường trong vòng 6 tháng đến một năm."
+      },
+      {
+        "question": "Bạn quản lý việc giải ngân trong các giai đoạn xây dựng khác nhau của khoản vay 'Fix and Flip' như thế nào?",
+        "answer": "Việc giải ngân được thực hiện sau khi hoàn thành công việc. Một thanh tra viên được chỉ định sẽ đánh giá bất động sản và sau khi họ phê duyệt, số tiền đã thỏa thuận sẽ được giải ngân."
+      },
+      {
+        "question": "Có bất kỳ hình phạt nào cho việc thanh toán sớm hoặc thanh toán khoản vay 'Fix and Flip' trước thời hạn không?",
+        "answer": "Không. Tại Sapience Capital, chúng tôi không áp dụng bất kỳ hình phạt nào cho việc thanh toán sớm hoặc thanh toán khoản vay trước ngày đáo hạn."
+      }
+    ],
+    "loan_requirements": [
+      "Sao kê ngân hàng 3 tháng gần nhất",
+      "CMND, hộ chiếu (và visa Mỹ nếu là người nước ngoài)",
+      "Hồ sơ pháp lý doanh nghiệp (LLC hoặc Corporation), số EIN & Thỏa thuận điều hành",
+      "Dự toán cải tạo (nếu có)",
+      "Tài sản thanh khoản/dự trữ tối thiểu 6 tháng",
+      "Giấy chứng nhận không cư trú tại bất động sản vay vốn",
+      "Số SSN để kiểm tra tín dụng và lý lịch",
+      "Giấy tờ bảo hiểm: bảo hiểm toàn phần (thay thế hoàn toàn + 500.000 USD trách nhiệm dân sự) & bảo hiểm rủi ro xây dựng (nếu áp dụng)",
+      "Điểm FICO tối thiểu 700",
+      "Đơn xin vay đã ký",
+      "Hợp đồng mua bán (nếu có)"
+    ],
+    "loan_terms": [
+      {
+        "title": "LOẠI BẤT ĐỘNG SẢN",
+        "content": "Nhà ở 1–4 căn (Trên 5 căn sẽ xét theo từng trường hợp cụ thể)"
+      },
+      {
+        "title": "SỐ TIỀN VAY",
+        "content": "LÊN ĐẾN 5.000.000 USD (Khoản vay trên 5 triệu USD có thể yêu cầu thời gian xét duyệt lâu hơn và điều kiện bổ sung)"
+      },
+      {
+        "title": "LOẠI KHOẢN VAY",
+        "content": "Vay ngắn hạn, chỉ trả lãi hàng tháng, thanh toán toàn bộ gốc vào cuối kỳ hạn (balloon payment)"
+      },
+      {
+        "title": "TỶ LỆ VAY SO VỚI CHI PHÍ XÂY DỰNG (Loan to Cost)",
+        "content": "Lên đến 85%"
+      },
+      {
+        "title": "TỶ LỆ VAY SO VỚI GIÁ TRỊ SAU XÂY DỰNG (Loan to ARV)",
+        "content": "70%"
+      },
+      {
+        "title": "TỶ LỆ VAY SO VỚI GIÁ TRỊ TÀI SẢN (Loan to Value)",
+        "content": "Lên đến 75%"
+      },
+      {
+        "title": "LÃI SUẤT CƠ BẢN",
+        "content": "TỪ 8.75% (Chỉ trả lãi trên số tiền đã giải ngân)"
+      },
+      {
+        "title": "ĐIỂM TÍN DỤNG (FICO) TỐI THIỂU",
+        "content": "700"
+      },
+      {
+        "title": "PHẠT TRẢ TRƯỚC HẠN",
+        "content": "KHÔNG CÓ"
+      },
+      {
+        "title": "CHẤP NHẬN NHÀ ĐẦU TƯ NƯỚC NGOÀI",
+        "content": "+0.25% vào lãi suất cơ bản"
+      },
+      {
+        "title": "QUY TRÌNH RÚT TIỀN DỄ DÀNG",
+        "content": ""
+      }
+    ],
+    "title": "Khoản vay xây dựng từ đất trống là gì?",
+    "a_content": "Khoản vay xây dựng từ đất trống",
+    "b_content": "là khoản vay ngắn hạn, chuyên biệt, được sử dụng để tài trợ cho việc xây dựng một bất động sản mới hoàn toàn từ đầu, thay vì mua hoặc cải tạo một công trình sẵn có. Khoản vay này thường được các nhà phát triển hoặc nhà thầu sử dụng để chi trả chi phí mua đất, nguyên vật liệu xây dựng, nhân công và các chi phí liên quan đến việc xây dựng nhà ở hoặc bất động sản thương mại mới.",
+    "c_content": "Tại đây",
+    "d_content": ", chúng tôi điều chỉnh các chương trình của mình phù hợp với kinh nghiệm và dự án của bạn.",
+    "apply_now": "Ứng tuyển ngay",
+    "term": "ĐIỀU KHOẢN VAY XÂY DỰNG MỚI"
   }
 }
