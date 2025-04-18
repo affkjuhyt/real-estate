@@ -31,9 +31,9 @@ export default function AboutUs({ params }: { params: Promise<{ locate: string }
 
     return (
       <div>
-        <AboutUsSection></AboutUsSection>
-        <MissionAndVisionSection></MissionAndVisionSection>
-        <ContactUsSection></ContactUsSection>
+        <AboutUsSection messages={messages}></AboutUsSection>
+        <MissionAndVisionSection messages={messages}></MissionAndVisionSection>
+        <ContactUsSection messages={messages}></ContactUsSection>
         <OurTeamSection messages={messages}></OurTeamSection>
         <Financing messages={messages}></Financing>
       </div>

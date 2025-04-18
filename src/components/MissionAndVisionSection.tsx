@@ -1,16 +1,14 @@
 import { useTranslations } from "next-intl";
 
-export default function MissionAndVisionSection() {
-  const t = useTranslations('about');
-
+export default function MissionAndVisionSection({ messages}: any) {
   const features = [
     {
-      name: t('mission_title'),
-      description: t('mission_content'),
+      name: messages['about']['mission_title'],
+      description: messages['about']['mission_content'],
     },
     {
-      name: t('vision_title'),
-      description: t('vision_content'),
+      name: messages['about']['vision_title'],
+      description: messages['about']['vision_content'],
     },
   ];
 
