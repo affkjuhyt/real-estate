@@ -1,6 +1,4 @@
-import { useTranslations } from "next-intl";
-
-export default function Financing({ messages}) {
+export default function Financing({ messages}: any) {
 
     return (
       <div className="bg-[#F7F8F8]">

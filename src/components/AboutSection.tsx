@@ -1,6 +1,6 @@
 import { LifebuoyIcon, NewspaperIcon, PhoneIcon } from '@heroicons/react/20/solid'
 
-export default function AboutSection({ messages }) {
+export default function AboutSection({ messages }: any) {
   const cards = [
     {
       name: messages['home']['agile'],

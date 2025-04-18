@@ -1,4 +1,4 @@
-export default function Stats({ messages }) {
+export default function Stats({ messages }: any) {
   const stats = [
     {
       id: 1,

@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 
-export default function FixAndFlipSection({ messages }) {
+export default function FixAndFlipSection({ messages }: any) {
   console.log(messages);
   const router = useRouter();
 
@@ -113,7 +113,7 @@ export default function FixAndFlipSection({ messages }) {
                   {messages["fix_flip"]["requirements"]}
                 </h4>
                 <ul className="list-disc pl-5 space-y-2">
-                  {loanRequirements.map((requirement, index) => (
+                  {loanRequirements.map((requirement: any, index: number) => (
                     <li key={index} className="text-gray-600">
                       {requirement}
                     </li>

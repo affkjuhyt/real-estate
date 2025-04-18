@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function LoanProgramsSection({ messages}) {
+export default function LoanProgramsSection({ messages}: any) {
   const loanPrograms = [
     {
       title: messages['loan_programs']['fix_flip_title'],

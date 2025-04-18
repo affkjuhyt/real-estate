@@ -1,9 +1,8 @@
 'use client';
 
-import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import { useState, useEffect } from "react";
 
-export default function Hero({messages}) {
+export default function Hero({messages}: any) {
   const [currentImage, setCurrentImage] = useState(1);
   // const t = useTranslations('home');
   console.log("messages", messages)

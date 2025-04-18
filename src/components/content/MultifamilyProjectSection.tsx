@@ -101,7 +101,7 @@ export default function MultifamilyProjectSection() {
                   Requirements:
                 </h4>
                 <ul className="list-disc pl-5 space-y-2">
-                  {loanRequirements.map((requirement, index) => (
+                  {loanRequirements.map((requirement: any, index: number) => (
                     <li key={index} className="text-gray-600">
                       {requirement}
                     </li>

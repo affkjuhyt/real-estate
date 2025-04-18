@@ -1,7 +1,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
-export default function FaqDscrForeignSection({ messages }) {
+export default function FaqDscrForeignSection({ messages }: any) {
   const faqs = messages['dscr_foreign']['faq'];
 
   return (
@@ -13,7 +13,7 @@ export default function FaqDscrForeignSection({ messages }) {
             FAQ
           </h2>
           <dl className="mt-16 grid grid-cols-1 gap-x-8 lg:grid-cols-2">
-            {faqs.map((faq) => (
+            {faqs.map((faq: any) => (
               <Disclosure key={faq.question} as="div" className="border-t border-gray-900/10 first:border-t-0 lg:first:border-t lg:even:border-t-0">
                 <dt>
                   <DisclosureButton className="group flex w-full items-start justify-between py-6 text-left text-gray-900">

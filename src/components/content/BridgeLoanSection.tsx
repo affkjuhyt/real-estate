@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 
-export default function BridgeLoanSection({ messages }) {
+export default function BridgeLoanSection({ messages }: any) {
   const router = useRouter();
 
   const loanTerms = messages['bridge_loan']['loan_terms'];
@@ -45,7 +45,7 @@ export default function BridgeLoanSection({ messages }) {
               {messages['bridge_loan']['a_title']}
             </h3>
             <div className="overflow-y-auto max-h-[600px] pr-4 space-y-6">
-              {loanTerms.map((term, index) => (
+              {loanTerms.map((term: any, index: number) => (
                 <div key={term.title}>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 mb-2 uppercase">
@@ -68,7 +68,7 @@ export default function BridgeLoanSection({ messages }) {
                   {messages['bridge_loan']['requirements']}
                 </h4>
                 <ul className="list-disc pl-5 space-y-2">
-                  {loanRequirements.map((requirement, index) => (
+                  {loanRequirements.map((requirement: any, index: number) => (
                     <li key={index} className="text-gray-600">
                       {requirement}
                     </li>

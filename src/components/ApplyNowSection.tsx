@@ -1,6 +1,6 @@
 import { ChevronRightIcon } from '@heroicons/react/24/outline'
 
-export default function ApplyNowSection({ messages }) {
+export default function ApplyNowSection({ messages }: any) {
   return (
     <div className="bg-[#1C3455]">
       <div className="mx-auto max-w-7xl py-24 sm:py-28 px-6 lg:px-8">

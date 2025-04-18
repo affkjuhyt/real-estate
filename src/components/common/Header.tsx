@@ -6,11 +6,11 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import { useLocale, useTranslations } from 'next-intl'
+import { useLocale } from 'next-intl'
 import logo from '../../../public/logo-real-estate.jpeg'
 
 
-export default function Header({header}) {
+export default function Header({header}: any) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const pathname = usePathname()
   const router = useRouter()

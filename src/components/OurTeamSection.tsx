@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function OurTeamSection({ messages }) {
+export default function OurTeamSection({ messages }: any) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   console.log(messages)
