@@ -12,6 +12,7 @@ import logo from '../../../public/logo-real-estate.jpeg'
 
 export default function Header({header}: any) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [languageDropdownOpen, setLanguageDropdownOpen] = useState(false)
   const pathname = usePathname()
   const router = useRouter()
   const locale = useLocale()
@@ -81,19 +82,33 @@ export default function Header({header}: any) {
           ))}
           
           {/* Language Switcher */}
-          <div className="flex items-center gap-2">
+          <div className="relative">
             <button
-              onClick={() => handleLanguageChange('en')}
-              className={`px-2 py-1 rounded ${locale === 'en' ? 'bg-[#FA7F28] text-white' : 'text-gray-700'}`}
+              onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}
+              className="text-sm/6 font-semibold text-gray-900 uppercase transition-colors duration-200 hover:text-[#FA7F28]"
             >
-              EN
+              🌐 {/* Language icon */}
             </button>
-            <button
-              onClick={() => handleLanguageChange('vi')}
-              className={`px-2 py-1 rounded ${locale === 'vi' ? 'bg-[#FA7F28] text-white' : 'text-gray-700'}`}
-            >
-              VI
-            </button>
+            {languageDropdownOpen && (
+              <div className="absolute w-16 pt-2 left-1/2 -translate-x-1/2">
+                <div className="bg-white overflow-hidden">
+                  <div className="py-1">
+                    <button
+                      onClick={() => handleLanguageChange('en')}
+                      className={`block px-4 py-2 text-sm text-gray-700 hover:text-[#FA7F28] ${locale === 'en' ? 'text-[#FA7F28]' : 'text-gray-700'}`}
+                    >
+                      EN
+                    </button>
+                    <button
+                      onClick={() => handleLanguageChange('vi')}
+                      className={`block px-4 py-2 text-sm text-gray-700 hover:text-[#FA7F28] ${locale === 'vi' ? 'text-[#FA7F28]' : 'text-gray-700'}`}
+                    >
+                      VI
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         </div>
         
