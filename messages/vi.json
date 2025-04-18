@@ -1,7 +1,20 @@
 {
   "home": {
     "title": "Chào mừng đến với Bất động sản",
-    "description": "Tìm ngôi nhà mơ ước của bạn"
+    "sub_title": "Cam kết tối ưu hóa lợi nhuận của bạn trong khi bảo vệ sự tự tin và an toàn của bạn",
+    "content": "Bạn đã sẵn sàng tránh sự phức tạp của ngân hàng và đảm bảo tài trợ suôn sẻ hơn chưa?",
+    "pre_approve": "Phê duyệt trước tại đây ngay bây giờ",
+    "agile": "Dịch vụ nhanh nhẹn và tận tâm",
+    "experience": "Kinh nghiệm",
+    "strategic_collaborations": "Hợp tác chiến lược",
+    "global_opportunities": "Cơ hội toàn cầu",
+    "agile_content": "Phản hồi nhanh chóng cho yêu cầu phê duyệt trước của bạn (trong vòng 24 giờ), kèm theo hướng dẫn cá nhân hóa và theo dõi liên tục.",
+    "experience_content": "Hơn 15 năm kinh nghiệm tích lũy trong ngành, đảm bảo quản lý rõ ràng và thông suốt.",
+    "strategic_collaborations_content": "Chúng tôi hợp tác với các công ty tiêu đề và thẩm định đáng tin cậy nhất, đảm bảo quy trình suôn sẻ và an toàn.",
+    "global_opportunities_content": "Chúng tôi cung cấp các khoản vay cho các nhà đầu tư từ khắp nơi trên thế giới.",
+    "contact_us_head":"BẠN ĐÃ SẴN SÀNG LÀM VIỆC CÙNG CHÚNG TÔI CHƯA?",
+    "contact_sub_title": "Hãy nói về dự án đầu tư bất động sản của bạn",
+    "apply_now": "Ứng tuyển ngay"
   },
   "navigation": {
     "home": "Trang chủ",
@@ -26,7 +39,9 @@
     "finance_title": "Cần tài trợ cho dự án bất động sản của bạn?",
     "finance_head": "Đừng lãng phí thêm thời gian",
     "finance_button": "Liên hệ với chúng tôi",
-    "apply_now": "Ứng tuyển ngay"
+    "apply_now": "Ứng tuyển ngay",
+    "about_title": "Tăng tốc đầu tư bất động sản của bạn với Sapience Capital, Nhà cho vay tiền tư nhân hàng đầu tại Hoa Kỳ",
+    "about_content": "Có trụ sở tại miền Nam California và sở hữu hơn 20 năm kinh nghiệm tích lũy trong lĩnh vực đầu tư và cho vay bất động sản, Sapience Capital chuyên cung cấp các giải pháp tài chính dành cho nhà đầu tư và nhà phát triển bất động sản. Chúng tôi mang đến một lựa chọn thay thế đơn giản hơn so với các khoản vay ngân hàng truyền thống, giúp khách hàng tránh được những rào cản thông thường và tiếp cận nguồn vốn nhanh chóng, linh hoạt hơn. Dù bạn đang cần vay cầu nối, vay cố định hoặc đảo ngược, tài trợ xây dựng từ đầu, hay vay DSCR, Sapience Capital luôn là đối tác đáng tin cậy và vững chắc cho dự án đầu tư tiếp theo của bạn."
   },
   "footer": {
     "address": "Địa chỉ",
@@ -47,5 +62,26 @@
     "ground_up_construction_loans": "Khoản vay xây dựng từ đầu",
     "dscr_loans": "Khoản vay DSCR",
     "dscr_loans_foreign": "Khoản vay DSCR (Nhà đầu tư nước ngoài)"
+  },
+  "loan_programs": {
+    "main_title": "CHƯƠNG TRÌNH CHO VAY",
+    "short_term": "Ngắn hạn",
+    "read_more": "Xem thêm",
+    "fix_flip_title": "KHOẢN VAY SỬA CHỮA & LẬT",
+    "fix_flip_content": "Mua, Sửa chữa và Bán lại Bất động sản của bạn",
+    "ground_up_construction_title": "KHOẢN VAY XÂY DỰNG TỪ ĐẦU",
+    "ground_up_construction_content": "Tài trợ cho Công trình Xây dựng Mới của bạn",
+    "bride_title": "KHOẢN VAY CẦU NỐI",
+    "bride_content": "Mua, tái cấp vốn hoặc rút tiền mặt",
+    "dscr_title": "KHOẢN VAY DSCR",
+    "dscr_content": "Mua và tái cấp vốn cho bất động sản cho thuê của bạn",
+    "dscr_foreign_title": "KHOẢN VAY DSCR (NHÀ ĐẦU TƯ NƯỚC NGOÀI)",
+    "dscr_foreign_content": "Quy trình tài trợ cho nhà đầu tư nước ngoài",
+    "over": "Hơn",
+    "over_value": "680 triệu",
+    "over_suffix": "vào năm 2024",
+    "more_than": "Hơn",
+    "more_than_value": "1200",
+    "more_than_suffix": "khoản vay được phê duyệt"
   }
 }

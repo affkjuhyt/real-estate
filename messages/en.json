@@ -1,7 +1,20 @@
 {
   "home": {
     "title": "Real Estate Investment and Private Lending - Your Path to Profitable Peace of Mind",
-    "description": "Find your dream home"
+    "sub_title": "Committed to optimizing your profits while safeguarding your confidence and security",
+    "content": "Are you ready to avoid the complexity of banks and secure smoother financing?",
+    "pre_approve": "Pre-Approve here now",
+    "agile": "Agile and Dedicated Service",
+    "experience": "Experience",
+    "strategic_collaborations": "Strategic Collaborations",
+    "global_opportunities": "Global Opportunities",
+    "agile_content": "Quick response to your pre-approval request (within 24 hours), accompanied by personalized guidance and continuous follow-up.",
+    "experience_content": "Over 15 years of accumulated experience in the industry, ensuring clear and informed management.",
+    "strategic_collaborations_content": "We collaborate with the most trusted title and appraisal companies, guaranteeing a smooth and secure process.",
+    "global_opportunities_content": "We provide loans to investors from all over the world.",
+    "contact_us_head":"ARE YOU READY TO WORK WITH US?",
+    "contact_sub_title": "Let's talk about your real estate investment project",
+    "apply_now": "Apply Now"
   },
   "navigation": {
     "home": "Home",
@@ -26,7 +39,9 @@
     "finance_title": "Need financing for your real estate project?",
     "finance_head": "Don't waste any more time",
     "finance_button": "Contact us",
-    "apply_now": "Get approval today"
+    "apply_now": "Get approval today",
+    "about_title": "Accelerate Your Real Estate Investments with Sapience Capital, Your Premier Private Money Lender in the USA",
+    "about_content": "Headquartered in Southern California and backed by over 20 years of combined experience in real estate investment and lending, Sapience Capital specializes in providing financing solutions for real estate investors and developers. By offering a streamlined alternative to traditional bank lending, we help clients avoid the usual hurdles and access faster, more flexible funding. Whether you need bridge loans, fixed or reversible loans, ground-up construction financing, or DSCR loans, Sapience Capital is your trusted and dependable partner for your next investment project."
   },
   "footer": {
     "address": "ADDRESS",
@@ -47,5 +62,26 @@
     "ground_up_construction_loans": "Ground Up Construction Loans",
     "dscr_loans": "DSCR Loans",
     "dscr_loans_foreign": "DSCR Loans (Foreign National)"
+  },
+  "loan_programs": {
+    "main_title": "LOAN PROGRAMS",
+    "short_term": "Short Term",
+    "read_more": "Read more",
+    "fix_flip_title": "FIX & FLIP LOAN",
+    "fix_flip_content": "Purchase, Rehab and Resell Your Property",
+    "ground_up_construction_title": "GROUND UP CONSTRUCTION LOAN",
+    "ground_up_construction_content": "Finance your New Construction",
+    "bride_title": "BRIDGE LOAN",
+    "bride_content": "Purchase, refinance or cash out",
+    "dscr_title": "DSCR LOAN",
+    "dscr_content": "Buy and refinance your rental property",
+    "dscr_foreign_title": "DSCR LOAN (FOREIGN NATIONAL)",
+    "dscr_foreign_content": "Financing process for foreign nationals",
+    "over": "Over",
+    "over_value": "680 Million",
+    "over_suffix": "in 2024",
+    "more_than": "More than",
+    "more_than_value": "1200",
+    "more_than_suffix": "approved loans"
   }
 }

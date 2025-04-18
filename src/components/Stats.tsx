@@ -1,9 +1,19 @@
-const stats = [
-  { id: 1, prefix: "Over", value: "$1 Billion", suffix: "in 2024" },
-  { id: 2, prefix: "More than", value: "3,000", suffix: "approved loans" },
-];
+export default function Stats({ messages }) {
+  const stats = [
+    {
+      id: 1,
+      prefix: messages["loan_programs"]["over"],
+      value: messages["loan_programs"]["over_value"],
+      suffix: messages["loan_programs"]["over_suffix"],
+    },
+    {
+      id: 2,
+      prefix: messages["loan_programs"]["more_than"],
+      value: messages["loan_programs"]["more_than_value"],
+      suffix: messages["loan_programs"]["more_than_suffix"],
+    },
+  ];
 
-export default function Stats() {
   return (
     <div
       className="relative bg-gray-900 py-24 sm:py-32 bg-cover bg-center bg-no-repeat h-[500px] flex items-center"

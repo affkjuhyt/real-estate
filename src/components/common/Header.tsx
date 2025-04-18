@@ -16,8 +16,6 @@ export default function Header({header}) {
   const router = useRouter()
   const locale = useLocale()
 
-  console.log("header", header);
-
   const loanTypes = [
       { name: 'Flip loans', href: '/fix-flip' },
       { name: 'Bridge loan', href: '/bridge-loan' },
