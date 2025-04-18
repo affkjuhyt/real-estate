@@ -1,40 +1,9 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
-const faqs = [
-  {
-    question: "What exactly is a bridge loan?",
-    answer:
-      "A bridge loan is a short-term financing option that is used to bridge the gap until a more permanent financial arrangement can be secured.",
-  },
-  {
-    question: "In which scenarios is a bridge loan most appropriate?",
-    answer:
-      "It’s ideal for situations like buying a new residence before the sale of the current one, funding projects while awaiting a long-term loan approval or seizing short-term investment ventures, to name a few.",
-  },
-  {
-    question: "Is collateral necessary for a bridge loan?",
-    answer:
-      "Absolutely. To secure a bridge loan, you must provide collateral, typically real estate or land.",
-  },
-  {
-    question: "Can I settle my bridge loan ahead of schedule without incurring extra charges?",
-    answer:
-      "Certainly! At Sapience Capital, we don’t impose any penalties for settling your loan ahead of its due date.",
-  },
-  {
-    question: "Can I consider refinancing my bridge loan?",
-    answer:
-      "Indeed, in specific situations, you can refinance your bridge loan either with a similar product or with a more extended financial solution.",
-  },
-  {
-    question: "What if the asset I intend to offload (e.g., my residence) is sold after the bridge loan's due date?",
-    answer:
-      "At Sapience Capital, we recommend reaching out to us a month before your loan’s expiration. We’ll guide you through the best alternatives, which might involve prolonging your current loan or opting for a different financing solution.",
-  },
-]
+export default function FaqBridgeLoanSection({ messages}) {
+  const faqs = messages['bridge_loan']['faq'];
 
-export default function FaqBridgeLoanSection() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-16">

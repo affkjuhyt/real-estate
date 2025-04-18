@@ -190,5 +190,110 @@
         "answer": "No. At Sapience Capital, we don’t levy any penalties for early payments or for settling the loan before its due date."
       }
     ]
+  },
+  "bridge_loan": {
+    "title": "What is a BRIDGE LOANS?",
+    "sub_title": "Purchase, Refinance or Cash out",
+    "a_content": "A",
+    "b_content": "Bridge loan",
+    "c_content": "in real estate is a short-term loan that provides temporary financing to cover a gap between the purchase of a new property and the sale of an existing one, or to bridge the time until more permanent financing is secured. Bridge loans are typically used when there is a need for immediate cash flow to close on a property purchase or to facilitate renovations before a more long-term loan can be obtained.",
+    "d_content": "At",
+    "e_content": ", we offer faster financing with excellent terms. Simplified loans, amplified profits.",
+    "apply_now": "Apply Now",
+    "a_title": "BRIDGE LOAN TERMS",
+    "requirements": "Requirements: ",
+    "loan_terms": [
+      {
+        "title": "PROPERTY TYPE",
+        "content": "Single Family: 1-4 Units / Condos /nMulti Family: 5 – 30 units"
+      },
+      {
+        "title": "LOAN AMOUNT",
+        "content":
+          "UP TO US$ 5.000.000 (Loan amount above US $5M subject to longer approval time and additional requirements)"
+      },
+      {
+        "title": "TYPE OF LOAN",
+        "content":
+          "Interest only short term loan with a balloon payment at maturity."
+      },
+      {
+        "title": "PURCHASE",
+        "content": "75%"
+      },
+      {
+        "title": "REFINANCE",
+        "content": "75%"
+      },
+      {
+        "title": "CASH OUT",
+        "content": "70%"
+      },
+      {
+        "title": "Term Length",
+        "content": "Up to 18 months + 6 months extension."
+      },
+      {
+        "title": "BASE RATE",
+        "content": "STARTING RATE 8.75% (Interest only payments on disbursed amount)"
+      },
+      {
+        "title": "MINIMUM FICO SCORE",
+        "content": "700"
+      },
+      {
+        "title": "PREPAYMENT PENALTIES",
+        "content": "NO PREPAYMENT PENALTIES 10-14 DAYS CLOSINGS"
+      },
+      {
+        "title": "FOREIGN NATIONALS ACCEPTED",
+        "content": "+ 0.25 to base rate"
+      }
+    ],
+    "loan_requirements": [
+      "3 months of bank statements",
+      "ID, passport, (US visa for foreign nationals)",
+      "Entity Documents (LLC or Corp), EIN & OP Agreement",
+      "Rehab budget (if applicable)",
+      "6 months liquidity/reserves",
+      "Non-owner occupancy certification",
+      "SSN for credit report and background check",
+      "Evidence of insurance (full replacement + 500K liability) & builder's risk insurance (if applicable)",
+      "Minimum Fico score of 700",
+      "Signed loan application",
+      "Purchase Contract (if applicable.)"
+    ],
+    "faq": [
+      {
+        "question": "What exactly is a bridge loan?",
+        "answer":
+          "A bridge loan is a short-term financing option that is used to bridge the gap until a more permanent financial arrangement can be secured."
+      },
+      {
+        "question": "In which scenarios is a bridge loan most appropriate?",
+        "answer":
+          "It’s ideal for situations like buying a new residence before the sale of the current one, funding projects while awaiting a long-term loan approval or seizing short-term investment ventures, to name a few."
+      },
+      {
+        "question": "Is collateral necessary for a bridge loan?",
+        "answer":
+          "Absolutely. To secure a bridge loan, you must provide collateral, typically real estate or land."
+      },
+      {
+        "question": "Can I settle my bridge loan ahead of schedule without incurring extra charges?",
+        "answer":
+          "Certainly! At Sapience Capital, we don’t impose any penalties for settling your loan ahead of its due date."
+      },
+      {
+        "question": "Can I consider refinancing my bridge loan?",
+        "answer":
+          "Indeed, in specific situations, you can refinance your bridge loan either with a similar product or with a more extended financial solution."
+      },
+      {
+        "question": "What if the asset I intend to offload (e.g., my residence) is sold after the bridge loan's due date?",
+        "answer":
+          "At Sapience Capital, we recommend reaching out to us a month before your loan’s expiration. We’ll guide you through the best alternatives, which might involve prolonging your current loan or opting for a different financing solution."
+      }
+    ]
   }
 }

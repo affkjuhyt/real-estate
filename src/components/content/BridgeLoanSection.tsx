@@ -2,71 +2,11 @@
 
 import { useRouter } from "next/navigation";
 
-const loanTerms = [
-  {
-    title: "PROPERTY TYPE",
-    content: "Single Family: 1-4 Units / Condos /nMulti Family: 5 – 30 units",
-  },
-  {
-    title: "LOAN AMOUNT",
-    content:
-      "UP TO US$ 5.000.000 (Loan amount above US $5M subject to longer approval time and additional requirements)",
-  },
-  {
-    title: "TYPE OF LOAN",
-    content:
-      "Interest only short term loan with a balloon payment at maturity.",
-  },
-  {
-    title: "PURCHASE",
-    content: "75%",
-  },
-  {
-    title: "REFINANCE",
-    content: "75%",
-  },
-  {
-    title: "CASH OUT",
-    content: "70%",
-  },
-  {
-    title: "Term Length",
-    content: "Up to 18 months + 6 months extension.",
-  },
-  {
-    title: "BASE RATE",
-    content: "STARTING RATE 8.75% (Interest only payments on disbursed amount)",
-  },
-  {
-    title: "MINIMUM FICO SCORE",
-    content: "700",
-  },
-  {
-    title: "PREPAYMENT PENALTIES",
-    content: "NO PREPAYMENT PENALTIES 10-14 DAYS CLOSINGS",
-  },
-  {
-    title: "FOREIGN NATIONALS ACCEPTED",
-    content: "+ 0.25 to base rate",
-  },
-];
-
-const loanRequirements = [
-  "3 months of bank statements",
-  "ID, passport, (US visa for foreign nationals)",
-  "Entity Documents (LLC or Corp), EIN & OP Agreement",
-  "Rehab budget (if applicable)",
-  "6 months liquidity/reserves",
-  "Non-owner occupancy certification",
-  "SSN for credit report and background check",
-  "Evidence of insurance (full replacement + 500K liability) & builder's risk insurance (if applicable)",
-  "Minimum Fico score of 700",
-  "Signed loan application",
-  "Purchase Contract (if applicable.)",
-];
-
-export default function BridgeLoanSection() {
+export default function BridgeLoanSection({ messages }) {
   const router = useRouter();
+
+  const loanTerms = messages['bridge_loan']['loan_terms'];
+  const loanRequirements = messages['bridge_loan']['loan_requirements'];
 
   return (
     <div className="overflow-hidden bg-gray-100 py-24 sm:py-32">
@@ -75,41 +15,34 @@ export default function BridgeLoanSection() {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <p className="text-xl mt-6 text-black font-bold uppercase">
-                What is a BRIDGE LOANS?
+                {messages['bridge_loan']['title']}
               </p>
               <p className="text-xl mt-2 text-black font-semibold">
-                Purchase, Refinance or Cash out
+                {messages['bridge_loan']['sub_title']}
               </p>
               <p className="mt-2 text-lg/8 text-gray-600">
-                A{" "}
-                <span className="font-semibold text-gray-700">Bridge loan</span>{" "}
-                in real estate is a short-term loan that provides temporary
-                financing to cover a gap between the purchase of a new property
-                and the sale of an existing one, or to bridge the time until
-                more permanent financing is secured. Bridge loans are typically
-                used when there is a need for immediate cash flow to close on a
-                property purchase or to facilitate renovations before a more
-                long-term loan can be obtained.
+                {messages['bridge_loan']['a_content']}{" "}
+                <span className="font-semibold text-gray-700">{messages['bridge_loan']['b_content']}</span>{" "}
+                {messages['bridge_loan']['c_content']}
               </p>
               <p className="mt-6 text-lg/8 text-gray-600">
-                At{" "}
+                {messages['bridge_loan']['d_content']}{" "}
                 <span className="font-semibold text-gray-700">
                   Sapience Capital
                 </span>
-                , we offer faster financing with excellent terms. Simplified
-                loans, amplified profits.
+                {messages['bridge_loan']['e_content']}
               </p>
               <button
                 onClick={() => router.push("/apply-now")}
                 className="mt-8 bg-[#FA7F29] text-white px-6 py-2.5 rounded-md font-semibold hover:bg-[#e06a15] transition-colors hover:cursor-pointer"
               >
-                APPLY NOW
+                {messages['bridge_loan']['apply_now']}
               </button>
             </div>
           </div>
           <div className="bg-gray-50 rounded-xl shadow-xl p-6 overflow-hidden">
             <h3 className="text-2xl font-semibold text-[#FA7F28] mb-6 uppercase">
-              Bridge Loan Terms
+              {messages['bridge_loan']['a_title']}
             </h3>
             <div className="overflow-y-auto max-h-[600px] pr-4 space-y-6">
               {loanTerms.map((term, index) => (
@@ -132,7 +65,7 @@ export default function BridgeLoanSection() {
 
               <div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-4">
-                  Requirements:
+                  {messages['bridge_loan']['requirements']}
                 </h4>
                 <ul className="list-disc pl-5 space-y-2">
                   {loanRequirements.map((requirement, index) => (
