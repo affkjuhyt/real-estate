@@ -381,5 +381,178 @@
     "d_content": ", chúng tôi điều chỉnh các chương trình của mình phù hợp với kinh nghiệm và dự án của bạn.",
     "apply_now": "Ứng tuyển ngay",
     "term": "ĐIỀU KHOẢN VAY XÂY DỰNG MỚI"
+  },
+  "dscr": {
+    "faq": [
+      {
+        "question": "Khoản vay DSCR là gì?",
+        "answer": "Khoản vay DSCR (Tỷ lệ bao phủ dịch vụ nợ) là một sản phẩm tài chính xem xét dòng tiền (dựa trên phân tích cho thuê) được tạo ra từ một tài sản đầu tư để trang trải gốc, lãi, thuế bất động sản, phí bảo hiểm và HOA của khoản vay nếu có. \nTỷ lệ bao phủ dịch vụ nợ được tính bằng cách lấy doanh thu cho thuê và chia cho chi phí mà chủ sở hữu phải trả cho một tài sản. Chi phí bao gồm gốc và lãi của khoản vay, thuế bất động sản, bảo hiểm và HOA nếu có."
+      },
+      {
+        "question": "Làm thế nào khoản vay DSCR có thể cải thiện tình hình tài chính của tôi?",
+        "answer": "Các khoản vay DSCR của chúng tôi được thiết kế để hợp nhất và tái cấu trúc các khoản nợ hiện có, cung cấp các điều khoản thuận lợi hơn và thời gian kéo dài. Điều này có thể dẫn đến việc giảm các khoản thanh toán hàng tháng và quản lý nợ hiệu quả hơn, cuối cùng củng cố sức khỏe tài chính lâu dài của bạn."
+      },
+      {
+        "question": "Tại sao việc xem xét DSCR lại quan trọng khi tái cấp vốn cho một khoản vay trong thời gian dài hơn?",
+        "answer": "Không yêu cầu xác minh thu nhập cá nhân hoặc việc làm. \nQuy trình đóng nhanh hơn \nLãi suất rất cạnh tranh \nCho phép nhà đầu tư bất động sản chuyển đổi khoản vay ngắn hạn như Fix and Flip, Bridge và Ground up Construction thành khoản vay 30 năm."
+      },
+      {
+        "question": "Số tiền vay tối đa dựa trên DSCR là bao nhiêu?",
+        "answer": "Bạn có thể xin khoản vay DSCR từ tối thiểu 100.000 USD đến 2 triệu USD."
+      },
+      {
+        "question": "Làm thế nào tôi có thể tận dụng khoản vay DSCR để có lợi cho mình?",
+        "answer": "Bạn có thể sử dụng khoản vay DSCR cho nhiều mục đích khác nhau, bao gồm mua tài sản, tái cấp vốn theo lãi suất & điều khoản, và tái cấp vốn rút tiền mặt."
+      },
+      {
+        "question": "Bạn có cung cấp tư vấn tài chính để giúp tôi hiểu rõ hơn về DSCR và tác động của nó đến khả năng vay của tôi không?",
+        "answer": "Chắc chắn! Sapience Capital có một đội ngũ chuyên gia tài chính sẵn sàng hỗ trợ bạn đưa ra quyết định thông minh về các khoản vay của chúng tôi."
+      }
+    ],
+    "term": "Điều Khoản DSCR",
+    "loan_requirements": [
+      "Sao kê ngân hàng 3 tháng gần nhất",
+      "CMND, hộ chiếu (và visa Mỹ nếu là người nước ngoài)",
+      "Hồ sơ pháp lý doanh nghiệp (LLC hoặc Corporation), số EIN & Thỏa thuận điều hành",
+      "Tài sản thanh khoản/dự trữ tối thiểu 6 tháng",
+      "Giấy chứng nhận không cư trú tại bất động sản vay vốn",
+      "Số SSN để kiểm tra tín dụng và lý lịch",
+      "Bằng chứng bảo hiểm: bảo hiểm toàn phần (thay thế hoàn toàn + 500.000 USD trách nhiệm dân sự) + bảo hiểm mất doanh thu thuê trong 6 tháng",
+      "Điểm FICO tối thiểu 660",
+      "Đơn xin vay đã ký",
+      "Thu nhập căn cứ vào dòng tiền cho thuê, yêu cầu tỷ lệ DSCR tối thiểu 1:1.0",
+      "Hồ sơ ban quản lý (chỉ áp dụng cho căn hộ)"
+    ],
+    "loan_term": [
+      {
+        "title": "LOẠI BẤT ĐỘNG SẢN",
+        "content": "Nhà ở đơn /nNhà 2–4 căn /nNhà 5–10 căn /nNhà phố (Townhomes) /nDự án phát triển quy hoạch (PUD) /nCăn hộ có thể bảo đảm tài chính (Warrantable Condos)"
+      },
+      {
+        "title": "SỐ TIỀN VAY",
+        "content": "Từ 125.000 USD đến 2.500.000 USD (Khoản vay cao hơn sẽ xét theo từng trường hợp riêng biệt)"
+      },
+      {
+        "title": "LOẠI KHOẢN VAY",
+        "content": "Vay cố định 30 năm hoặc vay lãi suất điều chỉnh (ARM): 5/1, 10/1 (Có thể chỉ trả lãi một phần hoặc trả góp theo kỳ hạn)"
+      },
+      {
+        "title": "TỶ LỆ VAY TỐI ĐA SO VỚI GIÁ TRỊ TÀI SẢN (LTV)",
+        "content": "MUA: 80% /nTÁI TÀI TRỢ: 75% /nRÚT TIỀN MẶT: 70%"
+      },
+      {
+        "title": "THỜI HẠN VAY",
+        "content": "30 năm"
+      },
+      {
+        "title": "LÃI SUẤT CƠ BẢN",
+        "content": "Từ 6.875%"
+      },
+      {
+        "title": "ĐIỂM TÍN DỤNG (FICO) TỐI THIỂU",
+        "content": "680"
+      },
+      {
+        "title": "PHẠT TRẢ TRƯỚC HẠN",
+        "content": "5 năm giảm dần (từ 5% xuống 1%)"
+      },
+      {
+        "title": "THỜI GIAN XỬ LÝ HỒ SƠ",
+        "content": "Từ 30 đến 60 ngày"
+      }
+    ],
+    "title": "Khoản vay DSCR là gì?",
+    "a_content": "",
+    "b_content": "Khoản vay DSCR (Debt Service Coverage Ratio – Tỷ lệ bao phủ nợ)",
+    "c_content": "là một loại khoản vay chủ yếu dành cho các khoản đầu tư bất động sản, trong đó khả năng trả nợ của người vay được đánh giá dựa trên thu nhập từ chính bất động sản đó.",
+    "d_content": "DSCR",
+    "e_content": "là một chỉ số tài chính đo lường dòng tiền có sẵn để chi trả cho các khoản nợ (bao gồm cả gốc và lãi). Đây là yếu tố quan trọng được các bên cho vay sử dụng để đánh giá rủi ro và sự ổn định tài chính của người vay khi họ tìm kiếm nguồn tài trợ cho các bất động sản tạo thu nhập như nhà cho thuê hoặc bất động sản thương mại.",
+    "apply_now": "Ứng tuyển ngay"
+  },
+  "dscr_foreign": {
+    "faq": [
+      {
+        "question": "Khoản vay DSCR là gì?",
+        "answer": "Khoản vay DSCR (Tỷ lệ bao phủ dịch vụ nợ) là một sản phẩm tài chính xem xét dòng tiền (dựa trên phân tích cho thuê) được tạo ra từ một tài sản đầu tư để trang trải gốc, lãi, thuế bất động sản, phí bảo hiểm và HOA của khoản vay nếu có. \nTỷ lệ bao phủ dịch vụ nợ được tính bằng cách lấy doanh thu cho thuê và chia cho chi phí mà chủ sở hữu phải trả cho một tài sản. Chi phí bao gồm gốc và lãi của khoản vay, thuế bất động sản, bảo hiểm và HOA nếu có."
+      },
+      {
+        "question": "Làm thế nào khoản vay DSCR có thể cải thiện tình hình tài chính của tôi?",
+        "answer": "Các khoản vay DSCR của chúng tôi được thiết kế để hợp nhất và tái cấu trúc các khoản nợ hiện có, cung cấp các điều khoản thuận lợi hơn và thời gian kéo dài. Điều này có thể dẫn đến việc giảm các khoản thanh toán hàng tháng và quản lý nợ hiệu quả hơn, cuối cùng củng cố sức khỏe tài chính lâu dài của bạn."
+      },
+      {
+        "question": "Tại sao việc xem xét DSCR lại quan trọng khi tái cấp vốn cho một khoản vay trong thời gian dài hơn?",
+        "answer": "Không yêu cầu xác minh thu nhập cá nhân hoặc việc làm. \nQuy trình đóng nhanh hơn \nLãi suất rất cạnh tranh \nCho phép nhà đầu tư bất động sản chuyển đổi khoản vay ngắn hạn như Fix and Flip, Bridge và Ground up Construction thành khoản vay 30 năm."
+      },
+      {
+        "question": "Số tiền vay tối đa dựa trên DSCR là bao nhiêu?",
+        "answer": "Bạn có thể xin khoản vay DSCR từ tối thiểu 100.000 USD đến 2 triệu USD."
+      },
+      {
+        "question": "Làm thế nào tôi có thể tận dụng khoản vay DSCR để có lợi cho mình?",
+        "answer": "Bạn có thể sử dụng khoản vay DSCR cho nhiều mục đích khác nhau, bao gồm mua tài sản, tái cấp vốn theo lãi suất & điều khoản, và tái cấp vốn rút tiền mặt."
+      },
+      {
+        "question": "Bạn có cung cấp tư vấn tài chính để giúp tôi hiểu rõ hơn về DSCR và tác động của nó đến khả năng vay của tôi không?",
+        "answer": "Chắc chắn! Sapience Capital có một đội ngũ chuyên gia tài chính sẵn sàng hỗ trợ bạn đưa ra quyết định thông minh về các khoản vay của chúng tôi."
+      }
+    ],
+    "loan_requirements": [
+      "Sao kê ngân hàng 3 tháng gần nhất",
+      "CMND, hộ chiếu (và visa Mỹ nếu là người nước ngoài)",
+      "Hồ sơ pháp lý doanh nghiệp (LLC hoặc Corporation), số EIN & Thỏa thuận điều hành",
+      "Tài sản thanh khoản/dự trữ tối thiểu 6 tháng",
+      "Giấy chứng nhận không cư trú tại bất động sản vay vốn",
+      "Số SSN để kiểm tra tín dụng và lý lịch",
+      "Bằng chứng bảo hiểm: bảo hiểm toàn phần (thay thế hoàn toàn + 500.000 USD trách nhiệm dân sự) + bảo hiểm mất doanh thu thuê trong 6 tháng",
+      "Điểm FICO tối thiểu 660",
+      "Đơn xin vay đã ký",
+      "Thu nhập căn cứ vào dòng tiền cho thuê, yêu cầu tỷ lệ DSCR tối thiểu 1:1.0",
+      "Hồ sơ ban quản lý (chỉ áp dụng cho căn hộ)",
+      "Nhà đầu tư nước ngoài: tài sản được xác minh và duy trì trong 60 ngày tại ngân hàng được bảo hiểm FDIC của Mỹ"
+    ],
+    "loan_terms": [
+      {
+        "title": "LOẠI BẤT ĐỘNG SẢN",
+        "content": "Nhà ở đơn /nNhà 2–4 căn /nNhà 5–10 căn /nNhà phố (Townhomes) /nDự án phát triển quy hoạch (PUD) /nCăn hộ có thể bảo đảm tài chính (Warrantable Condos)"
+      },
+      {
+        "title": "SỐ TIỀN VAY",
+        "content": "Từ 125.000 USD đến 2.500.000 USD (Khoản vay cao hơn sẽ xét theo từng trường hợp riêng biệt)"
+      },
+      {
+        "title": "LOẠI KHOẢN VAY",
+        "content": "Vay cố định 30 năm hoặc vay lãi suất điều chỉnh (ARM): 5/1, 10/1 (Có thể chỉ trả lãi một phần hoặc trả góp theo kỳ hạn)"
+      },
+      {
+        "title": "TỶ LỆ VAY TỐI ĐA SO VỚI GIÁ TRỊ TÀI SẢN",
+        "content": "MUA: 80% /nTÁI TÀI TRỢ: 75% /nRÚT TIỀN MẶT: 70%"
+      },
+      {
+        "title": "THỜI HẠN VAY",
+        "content": "30 năm"
+      },
+      {
+        "title": "LÃI SUẤT CƠ BẢN",
+        "content": "6,875%"
+      },
+      {
+        "title": "PHẠT TRẢ TRƯỚC HẠN",
+        "content": "5 năm giảm dần (từ 5% xuống 1%)"
+      },
+      {
+        "title": "THỜI GIAN XỬ LÝ HỒ SƠ",
+        "content": "Từ 30 đến 60 ngày"
+      }
+    ],
+    "term": "Điều Khoản DSCR cho Nhà Đầu Tư Nước Ngoài",
+    "title": "Khoản vay DSCR cho Nhà Đầu Tư Nước Ngoài là gì?",
+    "a_content": "Khoản vay DSCR cho Nhà Đầu Tư Nước Ngoài",
+    "b_content": "là một loại khoản vay được thiết kế đặc biệt cho các nhà đầu tư nước ngoài quan tâm đến việc mua các bất động sản tạo thu nhập tại Hoa Kỳ. Những khoản vay này sử dụng",
+    "c_content": "Tỷ lệ Bao phủ Dịch vụ Nợ (DSCR)",
+    "d_content": "như yếu tố chính để xác định khả năng vay, thay vì tập trung vào điểm tín dụng cá nhân hoặc thu nhập của người vay.",
+    "e_content": "Nói một cách đơn giản,",
+    "f_content": "Khoản vay DSCR cho Nhà Đầu Tư Nước Ngoài",
+    "g_content": "cho phép các nhà đầu tư tài trợ cho việc mua bất động sản tại Hoa Kỳ bằng cách đánh giá khả năng tạo thu nhập của bất động sản, thay vì nền tảng tài chính của người vay nước ngoài.",
+    "apply_now": "Ứng tuyển ngay"
   }
 }

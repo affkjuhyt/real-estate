@@ -397,5 +397,194 @@
     "d_content": ", we tailor our programs to your experience and your project.",
     "apply_now": "Apply Now",
     "term": "GROUND UP CONSTRUCTION TERMS"
+  },
+  "dscr": {
+    "faq": [
+      {
+        "question": "What is a DSCR loan?",
+        "answer":
+          "A DSCR (Debt Service Coverage Ratio) loan is a financial product that looks at the cash flow (based on rental analysis) generated from an investment property to cover the loan’s principal, interest, property taxes, insurance premiums and HOA if applicable. \nThe debt service coverage ratio is calculated by taking rental revenue and dividing it by the cost an owner has to pay for a property. Costs include the principal and interest of the loan, property taxes, insurance and HOA if applicable."
+      },
+      {
+        "question": "How can DSCR loans enhance my financial wellbeing?",
+        "answer":
+          "Our DSCR loans are tailored to consolidate and restructure existing debts, providing more favorable terms and extended durations. This can lead to reduced monthly payments and more efficient debt management, ultimately bolstering your long-term financial health."
+      },
+      {
+        "question": "Why is considering a DSCR crucial when refinancing a loan over a longer term?",
+        "answer":
+          "No Personal Income or Employment Verification required. \nFaster closing proces \nVery competitive rates \nAllows a real estate investor to change a Short Term Loan such as a Fix and Flip, Bridge and Ground up Construction to a 30 year Loan."
+      },
+      {
+        "question": "What is the maximum loan amount based on DSCR?",
+        "answer":
+          "You can apply for a DSCR loan ranging from a minimum of $100,000 to $2 million."
+      },
+      {
+        "question": "How can I leverage a DSCR loan to my advantage?",
+        "answer":
+          "You can use a DSCR loan for various purposes, including property purchase, rate & term refinancing, and cash-out refinancing."
+      },
+      {
+        "question": "Do you offer financial counseling to help me better grasp my DSCR and its impact on my borrowing capacity?",
+        "answer":
+          "Absolutely! Sapience Capital has a team of financial experts ready to assist you in making informed decisions about our loans."
+      }
+    ],
+    "term": "DSCR Terms",
+    "loan_requirements": [
+      "3 months of bank statements",
+      "ID, passport, (US visa for foreign nationals)",
+      "Entity Documents (LLC or Corp), EIN & OP Agreement",
+      "6 months liquidity/reserves",
+      "Non-owner occupancy certification",
+      "SSN for credit report and background check",
+      "Evidence of insurance (full replacement + 500K liability) + 6 months rental loss",
+      "Minimum Fico score of 660",
+      "Signed loan application",
+      "Income based in rental cash flow subject to A DSCR ratio of 1:10",
+      "HOA documents (only condos)"
+    ],
+    "loan_term": [
+      {
+        "title": "PROPERTY TYPE",
+        "content":
+          "Single Family /n2-4 Units /n5-10 Units /nTownhomes /nPlanned Unit Development (PUD) /nWarrantable Condos"
+      },
+      {
+        "title": "LOAN AMOUNT",
+        "content": "US$ 125K to US$ 2.5M (Higher amount on individual basis)"
+      },
+      {
+        "title": "TYPE OF LOAN",
+        "content":
+          "30-Year Fixed or Adjustable-rate mortgages (ARMs): 5/1, 10/1 (Partial IO or Amortizing)"
+      },
+      {
+        "title": "MAXIMUM LOAN TO VALUE",
+        "content": "PURCHASE: 80% /nREFINANCE: 75% /nCASHOUT: 70%"
+      },
+      {
+        "title": "Term Length",
+        "content": "30 Year"
+      },
+      {
+        "title": "BASE RATE",
+        "content": "6,875%"
+      },
+      {
+        "title": "MINIMUM FICO SCORE",
+        "content": "680"
+      },
+      {
+        "title": "PREPAYMENT PENALTIES",
+        "content": "5 YEARS DECLINING (5% to 1%)"
+      },
+      {
+        "title": "CLOSING",
+        "content": "30 TO 60 DAYS"
+      }
+    ],
+    "title": "What is a DSCR LOANS?",
+    "a_content": "A",
+    "b_content": "DSCR (Debt Service Coverage Ratio) Loan",
+    "c_content": "is a type of loan used primarily for real estate investments where the borrower’s ability to repay the loan is evaluated based on the property’s income. Specifically, the",
+    "d_content": "DSCR",
+    "e_content": "is a financial ratio that measures the cash flow available to cover debt payments (both principal and interest) on a loan. It’s an important metric used by lenders to assess the risk and financial stability of a borrower when they are seeking financing for an income-generating property, such as rental or commercial real estate.",
+    "apply_now": "Apply Now"
+  },
+  "dscr_foreign": {
+    "faq": [
+      {
+        "question": "What is a DSCR loan?",
+        "answer":
+          "A DSCR (Debt Service Coverage Ratio) loan is a financial product that looks at the cash flow (based on rental analysis) generated from an investment property to cover the loan’s principal, interest, property taxes, insurance premiums and HOA if applicable. \nThe debt service coverage ratio is calculated by taking rental revenue and dividing it by the cost an owner has to pay for a property. Costs include the principal and interest of the loan, property taxes, insurance and HOA if applicable."
+      },
+      {
+        "question": "How can DSCR loans enhance my financial wellbeing?",
+        "answer":
+          "Our DSCR loans are tailored to consolidate and restructure existing debts, providing more favorable terms and extended durations. This can lead to reduced monthly payments and more efficient debt management, ultimately bolstering your long-term financial health."
+      },
+      {
+        "question": "Why is considering a DSCR crucial when refinancing a loan over a longer term?",
+        "answer":
+          "No Personal Income or Employment Verification required. \nFaster closing proces \nVery competitive rates \nAllows a real estate investor to change a Short Term Loan such as a Fix and Flip, Bridge and Ground up Construction to a 30 year Loan."
+      },
+      {
+        "question": "What is the maximum loan amount based on DSCR?",
+        "answer":
+          "You can apply for a DSCR loan ranging from a minimum of $100,000 to $2 million."
+      },
+      {
+        "question": "How can I leverage a DSCR loan to my advantage?",
+        "answer":
+          "You can use a DSCR loan for various purposes, including property purchase, rate & term refinancing, and cash-out refinancing."
+      },
+      {
+        "question": "Do you offer financial counseling to help me better grasp my DSCR and its impact on my borrowing capacity?",
+        "answer":
+          "Absolutely! Sapience Capital has a team of financial experts ready to assist you in making informed decisions about our loans."
+      }
+    ],
+    "loan_requirements": [
+      "3 months of bank statements",
+      "ID, passport, (US visa for foreign nationals)",
+      "Entity Documents (LLC or Corp), EIN & OP Agreement",
+      "6 months liquidity/reserves",
+      "Non-owner occupancy certification",
+      "SSN for credit report and background check",
+      "Evidence of insurance (full replacement + 500K liability) + 6 months rental loss",
+      "Minimum Fico score of 660",
+      "Signed loan application",
+      "Income based in rental cash flow subject to A DSCR ratio of 1:10",
+      "HOA documents (only condos)",
+      "Foreign nationals: asset sourced and seasoned for 60 days in US FDIC insured bank"
+    ],
+    "loan_terms": [
+      {
+        "title": "PROPERTY TYPE",
+        "content":
+          "Single Family /n2-4 Units /n5-10 Units /nTownhomes /nPlanned Unit Development (PUD) /nWarrantable Condos"
+      },
+      {
+        "title": "LOAN AMOUNT",
+        "content": "US$ 125K to US$ 2.5M (Higher amount on individual basis)"
+      },
+      {
+        "title": "TYPE OF LOAN",
+        "content":
+          "30-Year Fixed or Adjustable-rate mortgages (ARMs): 5/1, 10/1 (Partial IO or Amortizing)"
+      },
+      {
+        "title": "MAXIMUM LOAN TO VALUE",
+        "content": "PURCHASE: 80% /nREFINANCE: 75% /nCASHOUT: 70%"
+      },
+      {
+        "title": "Term Length",
+        "content": "30 Year"
+      },
+      {
+        "title": "BASE RATE",
+        "content": "6,875%"
+      },
+      {
+        "title": "PREPAYMENT PENALTIES",
+        "content": "5 YEARS DECLINING (5% to 1%)"
+      },
+      {
+        "title": "CLOSING",
+        "content": "30 TO 60 DAYS"
+      }
+    ],
+    "term": "Foreign National DSCR Terms",
+    "title": "What is a Foreign National DSCR Loan?",
+    "a_content": "Foreign National DSCR Loans",
+    "b_content": "is a type of loan specifically designed for foreign investors who are interested in purchasing income-generating properties in the United States. These loans use the",
+    "c_content": "Debt Service Coverage Ratio (DSCR)",
+    "d_content": "as the primary factor in determining the loan's eligibility, rather than focusing on the borrower's personal credit score or income.",
+    "e_content": "In simple terms, a",
+    "f_content": "Foreign National DSCR Loan",
+    "g_content": "investors to finance U.S. real estate purchases by evaluating the property’s ability to generate income, rather than the financial background of the foreign borrower.",
+    "apply_now": "Apply Now"
   }
 }

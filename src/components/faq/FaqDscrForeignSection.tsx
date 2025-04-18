@@ -1,40 +1,9 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
-const faqs = [
-  {
-    question: "What is a DSCR loan?",
-    answer:
-      "A DSCR (Debt Service Coverage Ratio) loan is a financial product that looks at the cash flow (based on rental analysis) generated from an investment property to cover the loan’s principal, interest, property taxes, insurance premiums and HOA if applicable. \nThe debt service coverage ratio is calculated by taking rental revenue and dividing it by the cost an owner has to pay for a property. Costs include the principal and interest of the loan, property taxes, insurance and HOA if applicable.",
-  },
-  {
-    question: "How can DSCR loans enhance my financial wellbeing?",
-    answer:
-      "Our DSCR loans are tailored to consolidate and restructure existing debts, providing more favorable terms and extended durations. This can lead to reduced monthly payments and more efficient debt management, ultimately bolstering your long-term financial health.",
-  },
-  {
-    question: "Why is considering a DSCR crucial when refinancing a loan over a longer term?",
-    answer:
-      "No Personal Income or Employment Verification required. \nFaster closing proces \nVery competitive rates \nAllows a real estate investor to change a Short Term Loan such as a Fix and Flip, Bridge and Ground up Construction to a 30 year Loan.",
-  },
-  {
-    question: "What is the maximum loan amount based on DSCR?",
-    answer:
-      "You can apply for a DSCR loan ranging from a minimum of $100,000 to $2 million.",
-  },
-  {
-    question: "How can I leverage a DSCR loan to my advantage?",
-    answer:
-      "You can use a DSCR loan for various purposes, including property purchase, rate & term refinancing, and cash-out refinancing.",
-  },
-  {
-    question: "Do you offer financial counseling to help me better grasp my DSCR and its impact on my borrowing capacity?",
-    answer:
-      "Absolutely! Sapience Capital has a team of financial experts ready to assist you in making informed decisions about our loans.",
-  },
-]
+export default function FaqDscrForeignSection({ messages }) {
+  const faqs = messages['dscr_foreign']['faq'];
 
-export default function FaqDscrForeignSection() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-16">
