@@ -2,71 +2,58 @@
 
 import { useRouter } from "next/navigation";
 
-const loanTerms = [
-  {
-    title: "PROPERTY TYPE",
-    content: "Homes with 1-4 Units (5 units and above on a case by case basis)",
-  },
-  {
-    title: "LOAN AMOUNT",
-    content:
-      "UP TO US$ 5,000,000 (Loan amount above US $5M subject to longer approval time and additional requirements)",
-  },
-  {
-    title: "TYPE OF LOAN",
-    content:
-      "Interest only short-term loan with a balloon payment at maturity.",
-  },
-  {
-    title: "MAXIMUM LOAN TO COST",
-    content: "Up to 85% of purchase price, 100% of rehab costs.",
-  },
-  {
-    title: "MAXIMUM LOAN TO ARV",
-    content: "Up to 75%",
-  },
-  {
-    title: "BASE RATE",
-    content: "STARTING RATE 8.75% (Interest only payments on disbursed amount)",
-  },
-  {
-    title: "MINIMUM FICO SCORE",
-    content: "700",
-  },
-  {
-    title: "PREPAYMENT PENALTIES",
-    content: "NO PREPAYMENT PENALTIES 10-14 DAYS CLOSINGS",
-  },
-  {
-    title: "FOREIGN NATIONALS ACCEPTED",
-    content: "+ 0.25 to base rate",
-  },
-  {
-    title: "TERM LENGTH",
-    content: "Up to 18 months.",
-  },
-  {
-    title: "EASY DRAW PROCESS",
-    content: "",
-  },
-];
-
-const loanRequirements = [
-  "3 months of bank statements",
-  "ID, passport, (US visa for foreign nationals)",
-  "Entity Documents (LLC or Corp), EIN & OP Agreement",
-  "Rehab budget (if applicable)",
-  "6 months liquidity/reserves",
-  "Non-owner occupancy certification",
-  "SSN for credit report and background check",
-  "Evidence of insurance (full replacement + 500K liability) & builder's risk insurance (if applicable)",
-  "Minimum Fico score of 700",
-  "Signed loan application",
-  "Purchase Contract (if applicable.)",
-];
-
-export default function FixAndFlipSection() {
+export default function FixAndFlipSection({ messages }) {
+  console.log(messages);
   const router = useRouter();
+
+  const loanTerms = [
+    {
+      title: messages['fix_flip']['property_type'],
+      content: messages['fix_flip']['property_type_value'],
+    },
+    {
+      title: messages['fix_flip']['loan_amount'],
+      content: messages['fix_flip']['loan_amount_value'],
+    },
+    {
+      title: messages['fix_flip']['type_of_loan'],
+      content: messages['fix_flip']['type_of_loan_value'],
+    },
+    {
+      title: messages['fix_flip']['maximum_loan_to_cost'],
+      content: messages['fix_flip']['maximum_loan_to_cost_value'],
+    },
+    {
+      title: messages['fix_flip']['maximum_loan_to_arv'],
+      content: messages['fix_flip']['maximum_loan_to_arv_value'],
+    },
+    {
+      title: messages['fix_flip']['base_rate'],
+      content: messages['fix_flip']['base_rate_value'],
+    },
+    {
+      title: messages['fix_flip']['minimum_fico_score'],
+      content: messages['fix_flip']['minimum_fico_score_value'],
+    },
+    {
+      title: messages['fix_flip']['prepayment_penalties'],
+      content: messages['fix_flip']['prepayment_penalties_value'],
+    },
+    {
+      title: messages['fix_flip']['foreign_nationals_accepted'],
+      content: messages['fix_flip']['foreign_nationals_accepted_value'],
+    },
+    {
+      title: messages['fix_flip']['term_length'],
+      content: messages['fix_flip']['term_length_value'],
+    },
+    {
+      title: messages['fix_flip']['easy_draw_process'],
+      content: "",
+    },
+  ];
+  
+  const loanRequirements = messages["fix_flip"]["requirements_list"];
 
   return (
     <div className="overflow-hidden bg-gray-100 py-24 sm:py-32">
@@ -75,39 +62,32 @@ export default function FixAndFlipSection() {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <p className="text-xl mt-6 text-black font-bold uppercase">
-                What is a FIX AND FLIP LOANS?
+                {messages["fix_flip"]["title"]}
               </p>
               <p className="mt-2 text-lg/8 text-gray-600">
                 <span className="font-semibold text-gray-700">
-                  Fix and Flip
+                  {messages["fix_flip"]["a_content"]}
                 </span>{" "}
-                are short-term, interest-only loans specifically designed to
-                help real estate investors purchase, renovate, and then sell (or
-                "flip") properties for profit. These loans are typically used
-                for properties that need significant repairs or renovations
-                before they can be sold at a higher market value. The goal is to
-                complete the renovations quickly and sell the property for a
-                profit, often within 6 to 12 months.
+                {messages["fix_flip"]["b_content"]}
               </p>
               <p className="mt-6 text-lg/8 text-gray-600">
-                At{" "}
+                {messages["fix_flip"]["a_sub_content"]}{" "}
                 <span className="font-semibold text-gray-700">
                   Sapience Capital
                 </span>
-                , we offer faster financing with excellent terms. Simplified
-                loans, amplified profits.
+                {messages["fix_flip"]["b_sub_content"]}
               </p>
               <button
                 onClick={() => router.push("/apply-now")}
                 className="mt-8 bg-[#FA7F29] text-white px-6 py-2.5 rounded-md font-semibold hover:bg-[#e06a15] transition-colors hover:cursor-pointer"
               >
-                APPLY NOW
+                {messages["fix_flip"]["apply_now"]}
               </button>
             </div>
           </div>
           <div className="bg-gray-50 rounded-xl shadow-xl p-6 overflow-hidden">
             <h3 className="text-2xl font-semibold text-[#FA7F28] mb-6 uppercase">
-              FIX & FLIP TERMS
+              {messages["fix_flip"]["a_title"]}
             </h3>
             <div className="overflow-y-auto max-h-[600px] pr-4 space-y-6">
               {loanTerms.map((term, index) => (
@@ -130,7 +110,7 @@ export default function FixAndFlipSection() {
 
               <div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-4">
-                  Requirements:
+                  {messages["fix_flip"]["requirements"]}
                 </h4>
                 <ul className="list-disc pl-5 space-y-2">
                   {loanRequirements.map((requirement, index) => (

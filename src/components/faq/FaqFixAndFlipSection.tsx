@@ -1,40 +1,9 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
-const faqs = [
-  {
-    question: "Do I need renovation or construction experience for a 'Fix and Flip' loan?",
-    answer:
-      "Yes, it’s vital to have proven experience with a minimum of three projects.",
-  },
-  {
-    question: "Can I apply for a 'Fix and Flip' loan for commercial properties, or is it exclusive to residential ones?",
-    answer:
-      "At Sapience Capital, “Fix and Flip” loans are exclusively available for residential properties.",
-  },
-  {
-    question: "What happens if I cannot sell the property after renovation or wish to retain it?",
-    answer:
-      "Suppose you face challenges in securing a quick sale or decide to retain the property. In that case, you can transition to a DSCR loan, a long-term financing solution with more favorable terms and extended durations.",
-  },
-  {
-    question: "How long does a typical 'Fix and Flip' project last?",
-    answer:
-      "The duration varies based on the property’s condition and the extent of required renovations. However, the goal is to sell the refurbished property as swiftly as possible, typically within 6 months to a year.",
-  },
-  {
-    question: "How do you manage disbursements during the various construction stages of a 'Fix and Flip' loan?",
-    answer:
-      "Disbursements are made after the completion of the work. An assigned inspector will evaluate the property, and upon their approval, the agreed-upon amount will be disbursed.",
-  },
-  {
-    question: "Are there any penalties for early payments or settling the 'Fix and Flip' loan ahead of schedule?",
-    answer:
-      "No. At Sapience Capital, we don’t levy any penalties for early payments or for settling the loan before its due date.",
-  },
-]
-
-export default function FaqFixAndFlipSection() {
+export default function FaqFixAndFlipSection({ messages }) {
+  const faqs = messages['fix_flip']['faq_fix_and_flip'];
+  
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-16">

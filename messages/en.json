@@ -120,5 +120,75 @@
       "title": "Get in Touch Directly",
       "sub_title": "Still have questions about our loan rate or any other inquiries? Reach out today!"
     }
+  },
+  "fix_flip": {
+    "title": "What is a FIX AND FLIP LOANS?",
+    "a_content": "Fix and Flip",
+    "b_content": "are short-term, interest-only loans specifically designed to help real estate investors purchase, renovate, and then sell (or 'flip') properties for profit. These loans are typically used for properties that need significant repairs or renovations before they can be sold at a higher market value. The goal is to complete the renovations quickly and sell the property for a profit, often within 6 to 12 months.",
+    "a_sub_content": "At",
+    "b_sub_content": ", we offer faster financing with excellent terms. Simplified loans, amplified profits.",
+    "apply_now":"Apply Now",
+    "a_title": "FIX & FLIP TERMS",
+    "requirements": "Requirements: ",
+    "property_type": "PROPERTY TYPE",
+    "property_type_value": "Homes with 1-4 Units (5 units and above on a case by case basis)",
+    "loan_amount": "LOAN AMOUNT",
+    "loan_amount_value": "UP TO US$ 5,000,000 (Loan amount above US $5M subject to longer approval time and additional requirements)",
+    "type_of_loan": "TYPE OF LOAN",
+    "type_of_loan_value": "Interest only short-term loan with a balloon payment at maturity.",
+    "maximum_loan_to_cost": "MAXIMUM LOAN TO COST",
+    "maximum_loan_to_cost_value": "Up to 85% of purchase price, 100% of rehab costs.",
+    "maximum_loan_to_arv": "MAXIMUM LOAN TO ARV",
+    "maximum_loan_to_arv_value": "Up to 75%",
+    "base_rate": "BASE RATE",
+    "base_rate_value": "STARTING RATE 8.75% (Interest only payments on disbursed amount)",
+    "minimum_fico_score": "MINIMUM FICO SCORE",
+    "minimum_fico_score_value": "700",
+    "prepayment_penalties": "PREPAYMENT PENALTIES",
+    "prepayment_penalties_value": "NO PREPAYMENT PENALTIES 10-14 DAYS CLOSINGS",
+    "foreign_nationals_accepted": "FOREIGN NATIONALS ACCEPTED",
+    "foreign_nationals_accepted_value": "+ 0.25 to base rate",
+    "term_length": "TERM LENGTH",
+    "term_length_value": "Up to 18 months.",
+    "easy_draw_process": "EASY DRAW PROCESS",
+    "requirements_list": [
+      "3 months of bank statements",
+      "ID, passport, (US visa for foreign nationals)",
+      "Entity Documents (LLC or Corp), EIN & OP Agreement",
+      "Rehab budget (if applicable)",
+      "6 months liquidity/reserves",
+      "Non-owner occupancy certification",
+      "SSN for credit report and background check",
+      "Evidence of insurance (full replacement + 500K liability) & builder's risk insurance (if applicable)",
+      "Minimum Fico score of 700",
+      "Signed loan application",
+      "Purchase Contract (if applicable.)"
+    ],
+    "faq_fix_and_flip": [
+      {
+        "question": "Do I need renovation or construction experience for a 'Fix and Flip' loan?",
+        "answer": "Yes, it’s vital to have proven experience with a minimum of three projects."
+      },
+      {
+        "question": "Can I apply for a 'Fix and Flip' loan for commercial properties, or is it exclusive to residential ones?",
+        "answer": "At Sapience Capital, “Fix and Flip” loans are exclusively available for residential properties."
+      },
+      {
+        "question": "What happens if I cannot sell the property after renovation or wish to retain it?",
+        "answer": "Suppose you face challenges in securing a quick sale or decide to retain the property. In that case, you can transition to a DSCR loan, a long-term financing solution with more favorable terms and extended durations."
+      },
+      {
+        "question": "How long does a typical 'Fix and Flip' project last?",
+        "answer": "The duration varies based on the property’s condition and the extent of required renovations. However, the goal is to sell the refurbished property as swiftly as possible, typically within 6 months to a year."
+      },
+      {
+        "question": "How do you manage disbursements during the various construction stages of a 'Fix and Flip' loan?",
+        "answer": "Disbursements are made after the completion of the work. An assigned inspector will evaluate the property, and upon their approval, the agreed-upon amount will be disbursed."
+      },
+      {
+        "question": "Are there any penalties for early payments or settling the 'Fix and Flip' loan ahead of schedule?",
+        "answer": "No. At Sapience Capital, we don’t levy any penalties for early payments or for settling the loan before its due date."
+      }
+    ]
   }
 }
