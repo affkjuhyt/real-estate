@@ -83,5 +83,42 @@
     "more_than": "More than",
     "more_than_value": "1200",
     "more_than_suffix": "approved loans"
+  },
+  "services": {
+    "fintech_consulting": "FINTECH CONSULTING",
+    "fintech_consulting_content": "We provide innovative solutions to improve and automate financial services. These services use software, algorithms, and other technological advancements to streamline processes in areas like banking, investing, payments, lending, insurance, and personal finance management.",
+    "fintech_consulting_list_1": "Banking relations",
+    "fintech_consulting_list_2": "Company establishment and setup",
+    "real_estate_consultiong": "REAL ESTATE CONSULTING",
+    "real_estate_consultiong_content_1": "Sapience Capital provides expert advice and strategic guidance to individuals, investors, developers, and businesses in the real estate sector.",
+    "real_estate_consultiong_content_2": "We offer in-depth market analysis, investment strategies, property evaluation, and risk management solutions to help clients make informed decisions. Services include market research, site selection, financial modeling, project feasibility studies, and assistance with acquisitions, dispositions, and portfolio management.",
+    "real_estate_consultiong_content_3": "With a focus on maximizing value and minimizing risk, we help clients navigate the complexities of the real estate market, whether it's residential, commercial, or industrial properties. Our goal is to deliver tailored solutions that support the success and growth of their clients' real estate ventures.",
+    "investment_strategy": "L1A INVESTMENT STRATEGY",
+    "investment_content": "Sapience Capital provide investment strategy for the L1A program focused on providing the necessary financial backing and strategic direction to establish or expand a U.S. business under the leadership of an executive or manager transferring from an overseas entity. The L1A visa is designed for individuals in managerial or executive roles, allowing them to oversee operations and contribute to the growth of a U.S. branch, subsidiary, or affiliate of the foreign company.",
+    "investment_start": "The investment strategy involves:",
+    "investment_list_1": "Identifying Viable Business Opportunities",
+    "investment_list_2": "Capital Allocation",
+    "investment_list_3": "Business Plan Development",
+    "investment_list_4": "Compliance and Risk Management",
+    "investment_list_5": "Leadership and Operational Support",
+    "investment_consult": "This strategy ensures that the L1A visa holder can successfully manage and grow the U.S. business, while also meeting the immigration requirements necessary for visa approval. The ultimate goal is to foster long-term success, increase profitability, and create a positive economic impact for both the U.S. business and its local community."
+  },
+  "contact": {
+    "title": "Contact",
+    "content": "Your trusted real estate private lending company in California, dedicated to supporting your investment projects. Whether you're diving into fix and flip, new construction, or exploring other avenues in the real estate market, we're here to guide you.",
+    "form": {
+      "name": "Inquire About a New Deal",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "company": "Company",
+      "requested_loan_amount": "Requested loan amount",
+      "current_working_with": "Current working with",
+      "loan_type": "Loan type",
+      "property_address": "Property address",
+      "additional_information": "Additional information",
+      "submit": "Send message",
+      "title": "Get in Touch Directly",
+      "sub_title": "Still have questions about our loan rate or any other inquiries? Reach out today!"
+    }
   }
 }

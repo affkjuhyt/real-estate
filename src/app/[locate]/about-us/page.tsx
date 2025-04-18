@@ -19,7 +19,7 @@ export default async function AboutUs({ params }) {
         <MissionAndVisionSection></MissionAndVisionSection>
         <ContactUsSection></ContactUsSection>
         <OurTeamSection messages={messages}></OurTeamSection>
-        <Financing></Financing>
+        <Financing messages={messages}></Financing>
       </div>
     );
 }

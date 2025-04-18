@@ -1,16 +1,31 @@
-import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import {
+  BuildingOffice2Icon,
+  EnvelopeIcon,
+  PhoneIcon,
+} from "@heroicons/react/24/outline";
+import { useTranslations } from "next-intl";
 
 export default function InquireAboutSection() {
+  const t = useTranslations('contact');
   return (
     <div className="relative isolate bg-white">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-      <form action="#" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
+        <form
+          action="#"
+          method="POST"
+          className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
+        >
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-8">Inquire About a New Deal</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-8">
+              {t('form.name')}
+            </h2>
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
-                <label htmlFor="first-name" className="block text-sm/6 font-semibold text-gray-900">
-                  First name <span className="text-[#FA7F28]">*</span>
+                <label
+                  htmlFor="first-name"
+                  className="block text-sm/6 font-semibold text-gray-900"
+                >
+                  {t('form.first_name')} <span className="text-[#FA7F28]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -24,8 +39,11 @@ export default function InquireAboutSection() {
                 </div>
               </div>
               <div>
-                <label htmlFor="last-name" className="block text-sm/6 font-semibold text-gray-900">
-                  Last name <span className="text-[#FA7F28]">*</span>
+                <label
+                  htmlFor="last-name"
+                  className="block text-sm/6 font-semibold text-gray-900"
+                >
+                  {t('form.last_name')} <span className="text-[#FA7F28]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -39,8 +57,11 @@ export default function InquireAboutSection() {
                 </div>
               </div>
               <div>
-                <label htmlFor="company" className="block text-sm/6 font-semibold text-gray-900">
-                  Company <span className="text-[#FA7F28]">*</span>
+                <label
+                  htmlFor="company"
+                  className="block text-sm/6 font-semibold text-gray-900"
+                >
+                  {t('form.company')} <span className="text-[#FA7F28]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -53,8 +74,12 @@ export default function InquireAboutSection() {
                 </div>
               </div>
               <div>
-                <label htmlFor="loan-amount" className="block text-sm/6 font-semibold text-gray-900">
-                  Requested loan amount <span className="text-[#FA7F28]">*</span>
+                <label
+                  htmlFor="loan-amount"
+                  className="block text-sm/6 font-semibold text-gray-900"
+                >
+                  {t('form.requested_loan_amount')}{" "}
+                  <span className="text-[#FA7F28]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -67,8 +92,11 @@ export default function InquireAboutSection() {
                 </div>
               </div>
               <div>
-                <label htmlFor="current-working" className="block text-sm/6 font-semibold text-gray-900">
-                  Current Working With <span className="text-[#FA7F28]">*</span>
+                <label
+                  htmlFor="current-working"
+                  className="block text-sm/6 font-semibold text-gray-900"
+                >
+                  {t('form.current_working_with')} <span className="text-[#FA7F28]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -81,8 +109,11 @@ export default function InquireAboutSection() {
                 </div>
               </div>
               <div>
-                <label htmlFor="loan-type" className="block text-sm/6 font-semibold text-gray-900">
-                  Loan Type <span className="text-[#FA7F28]">*</span>
+                <label
+                  htmlFor="loan-type"
+                  className="block text-sm/6 font-semibold text-gray-900"
+                >
+                  {t('form.loan_type')} <span className="text-[#FA7F28]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <select
@@ -94,15 +125,22 @@ export default function InquireAboutSection() {
                     <option value="">Select a loan type</option>
                     <option value="fix-flip">Fix & Flip loan</option>
                     <option value="bridge">Bridge loan</option>
-                    <option value="construction">Ground up construction loan</option>
+                    <option value="construction">
+                      Ground up construction loan
+                    </option>
                     <option value="dscr">DSCR loan</option>
-                    <option value="multifamily">Multifamily project financing</option>
+                    <option value="dscr-foreign">
+                      DSCR loan (Foreign National)
+                    </option>
                   </select>
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label htmlFor="property-address" className="block text-sm/6 font-semibold text-gray-900">
-                  Property Address <span className="text-[#FA7F28]">*</span>
+                <label
+                  htmlFor="property-address"
+                  className="block text-sm/6 font-semibold text-gray-900"
+                >
+                  {t('form.property_address')} <span className="text-[#FA7F28]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <textarea
@@ -115,8 +153,11 @@ export default function InquireAboutSection() {
                 </div>
               </div>
               <div className="sm:col-span-2">
-                <label htmlFor="additional-info" className="block text-sm/6 font-semibold text-gray-900">
-                  Additional Information
+                <label
+                  htmlFor="additional-info"
+                  className="block text-sm/6 font-semibold text-gray-900"
+                >
+                  {t('form.additional_information')}
                 </label>
                 <div className="mt-2.5">
                   <textarea
@@ -133,7 +174,7 @@ export default function InquireAboutSection() {
                 type="submit"
                 className="rounded-md bg-[#FA7F28] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#e06a15] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FA7F28]"
               >
-                Send message
+                {t('form.submit')}
               </button>
             </div>
           </div>
@@ -161,23 +202,31 @@ export default function InquireAboutSection() {
                 <svg x="100%" y={-1} className="overflow-visible fill-gray-50">
                   <path d="M-470.5 0h201v201h-201Z" strokeWidth={0} />
                 </svg>
-                <rect fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" width="100%" height="100%" strokeWidth={0} />
+                <rect
+                  fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)"
+                  width="100%"
+                  height="100%"
+                  strokeWidth={0}
+                />
               </svg>
             </div>
             <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                Get in Touch Directly
+              {t('form.title')}
             </h2>
             <p className="mt-6 text-lg/8 text-gray-600">
-                Still have questions about our loan rate or any other inquiries? Reach out today!
+              {t('form.sub_title')}
             </p>
             <dl className="mt-10 space-y-4 text-base/7 text-gray-600">
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Address</span>
-                  <BuildingOffice2Icon aria-hidden="true" className="h-7 w-6 text-gray-400" />
+                  <BuildingOffice2Icon
+                    aria-hidden="true"
+                    className="h-7 w-6 text-gray-400"
+                  />
                 </dt>
                 <dd>
-                  <a 
+                  <a
                     href="https://www.google.com/maps/search/?api=1&query=2102+Business+Center+Drive+Irvine+CA+92612"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -190,10 +239,16 @@ export default function InquireAboutSection() {
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Telephone</span>
-                  <PhoneIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
+                  <PhoneIcon
+                    aria-hidden="true"
+                    className="h-7 w-6 text-gray-400"
+                  />
                 </dt>
                 <dd>
-                  <a href="tel:+1 (714) 462-7882" className="hover:text-gray-900">
+                  <a
+                    href="tel:+1 (714) 462-7882"
+                    className="hover:text-gray-900"
+                  >
                     +1 (714) 462-7882
                   </a>
                 </dd>
@@ -201,10 +256,16 @@ export default function InquireAboutSection() {
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Email</span>
-                  <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
+                  <EnvelopeIcon
+                    aria-hidden="true"
+                    className="h-7 w-6 text-gray-400"
+                  />
                 </dt>
                 <dd>
-                  <a href="mailto:info@sapiencecapital.us" className="hover:text-gray-900">
+                  <a
+                    href="mailto:info@sapiencecapital.us"
+                    className="hover:text-gray-900"
+                  >
                     info@sapiencecapital.us
                   </a>
                 </dd>
@@ -214,5 +275,5 @@ export default function InquireAboutSection() {
         </div>
       </div>
     </div>
-  )
+  );
 }

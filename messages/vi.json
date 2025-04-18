@@ -83,5 +83,42 @@
     "more_than": "Hơn",
     "more_than_value": "1200",
     "more_than_suffix": "khoản vay được phê duyệt"
+  },
+  "services": {
+    "fintech_consulting": "TƯ VẤN CÔNG NGHỆ TÀI CHÍNH (FINTECH CONSULTING)",
+    "fintech_consulting_content": "Chúng tôi cung cấp các giải pháp sáng tạo nhằm cải thiện và tự động hóa các dịch vụ tài chính. Những dịch vụ này sử dụng phần mềm, thuật toán và các tiến bộ công nghệ khác để đơn giản hóa quy trình trong các lĩnh vực như ngân hàng, đầu tư, thanh toán, cho vay, bảo hiểm và quản lý tài chính cá nhân.",
+    "fintech_consulting_list_1": "Quan hệ ngân hàng",
+    "fintech_consulting_list_2": "Thành lập và thiết lập doanh nghiệp",
+    "real_estate_consultiong": "TƯ VẤN BẤT ĐỘNG SẢN (REAL ESTATE CONSULTING)",
+    "real_estate_consultiong_content_1": "Sapience Capital cung cấp lời khuyên chuyên sâu và định hướng chiến lược cho cá nhân, nhà đầu tư, nhà phát triển và doanh nghiệp trong lĩnh vực bất động sản.",
+    "real_estate_consultiong_content_2": "Chúng tôi mang đến phân tích thị trường chuyên sâu, chiến lược đầu tư, định giá tài sản và giải pháp quản lý rủi ro nhằm giúp khách hàng đưa ra quyết định sáng suốt. Dịch vụ bao gồm: Nghiên cứu thị trường, Lựa chọn địa điểm, Lập mô hình tài chính, Nghiên cứu tính khả thi dự án, Hỗ trợ mua bán, chuyển nhượng và quản lý danh mục đầu tư",
+    "real_estate_consultiong_content_3": "Với mục tiêu tối đa hóa giá trị và giảm thiểu rủi ro, chúng tôi giúp khách hàng điều hướng thị trường bất động sản phức tạp, dù là nhà ở, thương mại hay công nghiệp. Mục tiêu của chúng tôi là mang lại các giải pháp phù hợp để hỗ trợ thành công và phát triển các dự án bất động sản của khách hàng.",
+    "investment_strategy": "CHIẾN LƯỢC ĐẦU TƯ L1A (L1A INVESTMENT STRATEGY)",
+    "investment_content": "Sapience Capital cung cấp chiến lược đầu tư cho chương trình L1A, tập trung vào việc hỗ trợ tài chính và định hướng chiến lược để thành lập hoặc mở rộng doanh nghiệp tại Hoa Kỳ dưới sự điều hành của giám đốc hoặc quản lý được chuyển từ công ty nước ngoài. Visa L1A được thiết kế cho những cá nhân giữ vai trò quản lý hoặc điều hành, cho phép họ điều hành hoạt động và đóng góp vào sự phát triển của chi nhánh, công ty con hoặc công ty liên kết tại Hoa Kỳ.",
+    "investment_start": "Chiến lược đầu tư bao gồm:",
+    "investment_list_1": "Xác định các cơ hội kinh doanh khả thi",
+    "investment_list_2": "Phân bổ vốn",
+    "investment_list_3": "Xây dựng kế hoạch kinh doanh",
+    "investment_list_4": "Quản lý rủi ro và tuân thủ quy định",
+    "investment_list_5": "Hỗ trợ điều hành và quản lý doanh nghiệp",
+    "investment_consult": "Chiến lược này đảm bảo người giữ visa L1A có thể điều hành và phát triển doanh nghiệp tại Hoa Kỳ một cách thành công, đồng thời đáp ứng đầy đủ yêu cầu nhập cư để được cấp visa. Mục tiêu cuối cùng là thúc đẩy thành công lâu dài, tăng lợi nhuận và tạo ra tác động kinh tế tích cực cho doanh nghiệp tại Mỹ cũng như cộng đồng địa phương."
+  },
+  "contact": {
+    "title": "Liên Hệ",
+    "content": "Công ty tư vấn và cho vay bất động sản đáng tin cậy của bạn tại California, tận tâm hỗ trợ các dự án đầu tư của bạn. Dù bạn đang thực hiện dự án sửa chữa và bán lại, xây dựng mới hay khám phá các hướng đi khác trong thị trường bất động sản, chúng tôi luôn sẵn sàng đồng hành cùng bạn.",
+    "form": {
+      "name": "Yêu cầu về một giao dịch mới",
+      "first_name": "Tên",
+      "last_name": "Họ",
+      "company": "Công ty",
+      "requested_loan_amount": "Số tiền vay yêu cầu",
+      "current_working_with": "Đang làm việc với",
+      "loan_type": "Loại khoản vay",
+      "property_address": "Địa chỉ bất động sản",
+      "additional_information": "Thông tin bổ sung",
+      "submit": "Gửi tin nhắn",
+      "title": "Liên hệ trực tiếp",
+      "sub_title": "Vẫn còn thắc mắc về lãi suất vay của chúng tôi hoặc bất kỳ câu hỏi nào khác? Liên hệ ngay hôm nay!"
+    }
   }
 }
