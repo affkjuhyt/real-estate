@@ -586,5 +586,31 @@
     "f_content": "Foreign National DSCR Loan",
     "g_content": "investors to finance U.S. real estate purchases by evaluating the property’s ability to generate income, rather than the financial background of the foreign borrower.",
     "apply_now": "Apply Now"
+  },
+  "apply": {
+    "title": "Apply Now",
+    "sub_title": "A secure and fast transaction guaranteed in one place",
+    "name": "Name",
+    "last_name": "Last Name",
+    "subject_property_address": "Subject Property Address",
+    "email_address": "Email Address",
+    "cellphone": "Cellphone",
+    "estimated_fico": "Estimated FICO",
+    "legal_status": "Legal Status",
+    "type_of_loan": "Type of Loan",
+    "estimated_rehab_budget": "Estimated Rehab Budget",
+    "number_of_properties_of_experience": "Number of Properties of Experience",
+    "estimated_purchase_price": "Estimated Purchase Price",
+    "how_did_you_hear_about_us": "How did you hear about us?",
+    "note": "If you have already spoken with someone from our office, please provide the name of that person",
+    "best_time": "Best Time to Call",
+    "submit": "Submit",
+    "permanent": "Permanent resident or US Citizen",
+    "foreign": "Foreign National",
+    "purchase": "Purchase",
+    "fix_and_flip": "Fix and Flip",
+    "new_construction": "New Construction",
+    "refinance": "Refinance",
+    "cash_out": "Cash Out"
   }
 }

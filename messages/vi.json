@@ -554,5 +554,31 @@
     "f_content": "Khoản vay DSCR cho Nhà Đầu Tư Nước Ngoài",
     "g_content": "cho phép các nhà đầu tư tài trợ cho việc mua bất động sản tại Hoa Kỳ bằng cách đánh giá khả năng tạo thu nhập của bất động sản, thay vì nền tảng tài chính của người vay nước ngoài.",
     "apply_now": "Ứng tuyển ngay"
-  }
+  },
+  "apply": {
+    "title": "Ứng tuyển ngay",
+    "sub_title": "Giao dịch an toàn và nhanh chóng được đảm bảo tại một nơi",
+    "name": "Tên",
+    "last_name": "Họ",
+    "subject_property_address": "Địa chỉ bất động sản",
+    "email_address": "Địa chỉ email",
+    "cellphone": "Điện thoại di động",
+    "estimated_fico": "Điểm FICO ước tính",
+    "legal_status": "Tình trạng pháp lý",
+    "type_of_loan": "Loại khoản vay",
+    "estimated_rehab_budget": "Ngân sách cải tạo ước tính",
+    "number_of_properties_of_experience": "Số lượng bất động sản đã có kinh nghiệm",
+    "estimated_purchase_price": "Giá mua ước tính",
+    "how_did_you_hear_about_us": "Bạn biết về chúng tôi qua đâu?",
+    "note": "Nếu bạn đã nói chuyện với ai đó từ văn phòng của chúng tôi, vui lòng cung cấp tên của người đó",
+    "best_time": "Thời gian tốt nhất để gọi",
+    "submit": "Gửi",
+    "permanent": "Thường trú nhân hoặc Công dân Hoa Kỳ",
+    "foreign": "Người nước ngoài",
+    "purchase": "Mua",
+    "fix_and_flip": "Sửa chữa và Bán lại",
+    "new_construction": "Xây dựng mới",
+    "refinance": "Tái tài trợ",
+    "cash_out": "Rút tiền mặt"
+  } 
 }

@@ -1,7 +1,9 @@
-import { PhotoIcon } from "@heroicons/react/24/solid";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
+import { useTranslations } from "next-intl";
 
 export default function ApplyFormSection() {
+  const t = useTranslations('apply')
+  
   return (
     <div className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -9,17 +11,17 @@ export default function ApplyFormSection() {
           <div className="space-y-12">
             <div className="pb-12">
               <h2 className="text-2xl font-bold text-gray-900 uppercase text-center">
-                Apply now
+                {t('title')}
               </h2>
 
               <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 bg-[#F7F8F8] p-16">
                 <div className="col-span-full mb-4 text-2xl uppercase text-black font-bold">
-                  A secure and fast transaction guaranteed in one place
+                  {t('sub_title')}
                 </div>
 
                 <div className="sm:col-span-3">
                   <label htmlFor="first-name" className="block text-sm/6 font-medium uppercase text-black">
-                    Name
+                    {t('name')}
                   </label>
                   <div className="mt-2">
                     <input
@@ -32,7 +34,7 @@ export default function ApplyFormSection() {
 
                 <div className="sm:col-span-3">
                   <label htmlFor="last-name" className="block text-sm/6 font-medium uppercase text-black">
-                    Last name
+                    {t('last_name')}
                   </label>
                   <div className="mt-2">
                     <input
@@ -45,7 +47,7 @@ export default function ApplyFormSection() {
 
                 <div className="col-span-full">
                   <label htmlFor="property-address" className="block text-sm/6 font-medium uppercase text-black">
-                    Subject property address
+                    {t('subject_property_address')}
                   </label>
                   <div className="mt-2">
                     <input
@@ -58,7 +60,7 @@ export default function ApplyFormSection() {
 
                 <div className="sm:col-span-3">
                   <label htmlFor="email" className="block text-sm/6 font-medium uppercase text-black">
-                    Email address
+                    {t('email_address')}
                   </label>
                   <div className="mt-2">
                     <input
@@ -71,7 +73,7 @@ export default function ApplyFormSection() {
 
                 <div className="sm:col-span-3">
                   <label htmlFor="cellphone" className="block text-sm/6 font-medium uppercase text-black">
-                    Cellphone
+                    {t('cellphone')}
                   </label>
                   <div className="mt-2">
                     <input
@@ -84,7 +86,7 @@ export default function ApplyFormSection() {
 
                 <div className="sm:col-span-3">
                   <label htmlFor="fico" className="block text-sm/6 font-medium uppercase text-black">
-                    Estimated fico
+                    {t('estimated_fico')}
                   </label>
                   <div className="mt-2">
                     <input
@@ -97,15 +99,15 @@ export default function ApplyFormSection() {
 
                 <div className="sm:col-span-3">
                   <label htmlFor="legal-status" className="block text-sm/6 font-medium uppercase text-black">
-                    Legal Status
+                    {t('legal_status')}
                   </label>
                   <div className="mt-2 grid grid-cols-1">
                     <select
                       id="legal-status"
                       className="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
                     >
-                      <option>Permanent resident or US Citizen</option>
-                      <option>Foreign National</option>
+                      <option>{t('permanent')}</option>
+                      <option>{t('foreign')}</option>
                     </select>
                     <ChevronDownIcon
                       aria-hidden="true"
@@ -116,19 +118,18 @@ export default function ApplyFormSection() {
 
                 <div className="sm:col-span-3">
                   <label htmlFor="loan-type" className="block text-sm/6 font-medium uppercase text-black">
-                    Type of loan
+                    {t('type_of_loan')}
                   </label>
                   <div className="mt-2 grid grid-cols-1">
                     <select
                       id="loan-type"
                       className="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-1.5 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
                     >
-                      <option>Purchase</option>
-                      <option>Fix and flip</option>
-                      <option>New construction</option>
-                      <option>Refinance</option>
-                      <option>Cast out</option>
-                      <option>Multifamily Project Financing</option>
+                      <option>{t('purchase')}</option>
+                      <option>{t('fix_and_flip')}</option>
+                      <option>{t('new_construction')}</option>
+                      <option>{t('refinance')}</option>
+                      <option>{t('cash_out')}</option>
                     </select>
                     <ChevronDownIcon
                       aria-hidden="true"
@@ -139,7 +140,7 @@ export default function ApplyFormSection() {
 
                 <div className="sm:col-span-3">
                   <label htmlFor="rehab-budget" className="block text-sm/6 font-medium uppercase text-black">
-                    Estimated rehab budget
+                    {t('estimated_rehab_budget')}
                   </label>
                   <div className="mt-2">
                     <input
@@ -152,7 +153,7 @@ export default function ApplyFormSection() {
 
                 <div className="sm:col-span-3">
                   <label htmlFor="experience" className="block text-sm/6 font-medium uppercase text-black">
-                    Number of properties of experience
+                    {t('number_of_properties_of_experience')}
                   </label>
                   <div className="mt-2">
                     <input
@@ -165,7 +166,7 @@ export default function ApplyFormSection() {
 
                 <div className="sm:col-span-3">
                   <label htmlFor="purchase-price" className="block text-sm/6 font-medium uppercase text-black">
-                    Estimated purchase price
+                    {t('estimated_purchase_price')}
                   </label>
                   <div className="mt-2">
                     <input
@@ -178,7 +179,7 @@ export default function ApplyFormSection() {
 
                 <div className="sm:col-span-3">
                   <label htmlFor="referral-source" className="block text-sm/6 font-medium uppercase text-black">
-                    How did you hear about us?
+                    {t('how_did_you_hear_about_us')}
                   </label>
                   <div className="mt-2 grid grid-cols-1">
                     <select
@@ -202,7 +203,7 @@ export default function ApplyFormSection() {
 
                 <div className="col-span-full">
                   <label htmlFor="contact-person" className="block text-sm/6 font-medium uppercase text-black">
-                    If you have already spoken with someone from our office, please provide the name of that person
+                    {t('note')}
                   </label>
                   <div className="mt-2">
                     <input
@@ -215,7 +216,7 @@ export default function ApplyFormSection() {
 
                 <div className="sm:col-span-3">
                   <label htmlFor="best-time" className="block text-sm/6 font-medium uppercase text-black">
-                    Best time to call
+                    {t('best_time')}
                   </label>
                   <div className="mt-2">
                     <input
@@ -231,7 +232,7 @@ export default function ApplyFormSection() {
                     type="submit"
                     className="rounded-md bg-[#FA7F29] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#e06a15] transition-colors"
                   >
-                    Submit
+                    {t('submit')}
                   </button>
                 </div>
               </div>
