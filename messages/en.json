@@ -118,7 +118,13 @@
       "additional_information": "Additional information",
       "submit": "Send message",
       "title": "Get in Touch Directly",
-      "sub_title": "Still have questions about our loan rate or any other inquiries? Reach out today!"
+      "sub_title": "Still have questions about our loan rate or any other inquiries? Reach out today!",
+      "select_a_loan_type": "Select a loan type",
+      "fix_and_flip": "Fix & Flip",
+      "bridge_loan": "Bridge Loan",
+      "ground_up_construction": "Ground Up Construction loan",
+      "dscr_loan": "DSCR Loan",
+      "dscr_foreign": "DSCR Loan (Foreign National)"
     }
   },
   "fix_flip": {

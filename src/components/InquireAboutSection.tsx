@@ -122,15 +122,15 @@ export default function InquireAboutSection() {
                     name="loan-type"
                     className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#FA7F28]"
                   >
-                    <option value="">Select a loan type</option>
-                    <option value="fix-flip">Fix & Flip loan</option>
-                    <option value="bridge">Bridge loan</option>
+                    <option value="">{t('form.select_a_loan_type')}</option>
+                    <option value="fix-flip">{t('form.fix_and_flip')}</option>
+                    <option value="bridge">{t('form.bridge_loan')}</option>
                     <option value="construction">
-                      Ground up construction loan
+                      {t('form.ground_up_construction')}
                     </option>
-                    <option value="dscr">DSCR loan</option>
+                    <option value="dscr">{t('form.dscr_loan')}</option>
                     <option value="dscr-foreign">
-                      DSCR loan (Foreign National)
+                      {t('form.dscr_foreign')}
                     </option>
                   </select>
                 </div>

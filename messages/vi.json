@@ -118,7 +118,13 @@
       "additional_information": "Thông tin bổ sung",
       "submit": "Gửi tin nhắn",
       "title": "Liên hệ trực tiếp",
-      "sub_title": "Vẫn còn thắc mắc về lãi suất vay của chúng tôi hoặc bất kỳ câu hỏi nào khác? Liên hệ ngay hôm nay!"
+      "sub_title": "Vẫn còn thắc mắc về lãi suất vay của chúng tôi hoặc bất kỳ câu hỏi nào khác? Liên hệ ngay hôm nay!",
+      "select_a_loan_type": "Chọn loại khoản vay",
+      "fix_and_flip": "Sửa chữa & Bán lại",
+      "bridge_loan": "Khoản vay cầu nối",
+      "ground_up_construction": "Khoản vay xây dựng từ đầu",
+      "dscr_loan": "Khoản vay DSCR",
+      "dscr_foreign": "Khoản vay DSCR (Nhà đầu tư nước ngoài)"
     }
   },
   "fix_flip": {
