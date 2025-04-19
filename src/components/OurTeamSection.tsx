@@ -5,18 +5,37 @@ import { useState } from 'react';
 export default function OurTeamSection({ messages }: any) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  console.log(messages)
   const people = [
-    {
-      name: "Anjin Ho",
-      role: messages['about']['manage_partner'],
-      imageUrl: "/Managing Partner.jpeg",
-    },
     {
       name: "Trung",
       role: messages['about']['co_founder'],
-      imageUrl: "/Co-Founder.jpeg",
+      imageUrl: "/team/Co-Founder.jpeg",
     },
+    {
+      name: "Anjin Ho",
+      role: messages['about']['manage_partner'],
+      imageUrl: "/team/Managing Partner.jpeg",
+    },
+    {
+      name: "Mike Ahmari",
+      role: "Broker",
+      imageUrl: "/team/Broker.jpeg",
+    },
+    {
+      name: "Troy Jones",
+      role: "Operation Manager",
+      imageUrl: "/team/Operator Manager.jpeg",
+    },
+    {
+      name: "Isahi Pena",
+      role: "Sr. Loan officer",
+      imageUrl: "/team/Loans Office.jpeg",
+    },
+    {
+      name: "Sam Sohn",
+      role: "Jr. Loan officer",
+      imageUrl: "/team/Jr. Loan Officer.jpeg",
+    }
   ];
 
   return (

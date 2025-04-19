@@ -28,7 +28,27 @@ export default async function RootLayout({
   params: Promise<{locate: string}>; // Change 'locale' to 'locate'
 }) {
   const data = await params;
-  const locale = data['locate']; // Access 'locate' instead of 'locale'
+  let locale = data['locate']; // Access 'locate' instead of 'locale'
+
+  const determineLocaleFromLocation = async () => {
+    try {
+      const response = await fetch('https://ipinfo.io/json?token=90d53581cc79a7');
+      const data = await response.json();
+      const countryCode = data.country;
+
+      // Return 'vi' for Vietnam, 'en' for other countries
+      return countryCode === 'VN' ? 'vi' : 'en';
+    } catch (error) {
+      console.error('Error determining location:', error);
+      return 'en'; // Default to 'en' if there's an error
+    }
+  };
+
+  // Check IP-based location first
+  if (!locale) {
+    locale = await determineLocaleFromLocation();
+  }
+
   let messages;
   messages = await import(`../../../messages/${locale}.json`);
 

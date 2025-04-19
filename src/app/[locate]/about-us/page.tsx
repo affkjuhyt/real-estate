@@ -7,10 +7,6 @@ import MissionAndVisionSection from "@/components/MissionAndVisionSection";
 import OurTeamSection from "@/components/OurTeamSection";
 import { use, useEffect, useState } from 'react';
 
-async function fetchMessages(locale: string) {
-    const response = await import(`../../../../messages/${locale}.json`);
-    return response.default;
-}
 
 export default function AboutUs({ params }: { params: Promise<{ locate: string }> }) {
     const resolvedParams = use(params);

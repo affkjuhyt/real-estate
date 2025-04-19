@@ -5,9 +5,9 @@ import InvestmentStrategySection from "@/components/InvestmentStrategySection";
 export default function Service() {
     return (
         <div>
-            <FintechServiceSection></FintechServiceSection>
             <RealEstateSection></RealEstateSection>
             <InvestmentStrategySection></InvestmentStrategySection>
+            <FintechServiceSection></FintechServiceSection>
         </div>
     )
 }

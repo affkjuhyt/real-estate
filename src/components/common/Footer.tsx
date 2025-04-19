@@ -21,7 +21,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#D1D1D1]">
+    <footer className="bg-black">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           <div>
@@ -29,10 +29,10 @@ export default function Footer() {
               <Image
                 alt="Company name"
                 src={logo}
-                className="h-12 w-12 mb-8 object-contain"
+                className="h-18 w-18 mb-8 object-contain"
               />
             </a>
-            <h3 className="text-sm/4 font-semibold text-gray-900 mb-6 uppercase">
+            <h3 className="text-sm/4 font-semibold text-white mb-6 uppercase">
               {t('address')}
             </h3>
             <ul role="list" className="space-y-4">
@@ -48,7 +48,7 @@ export default function Footer() {
                         ? `tel:${item.name.replace(/[^\d+]/g, '')}`
                         : item.href
                     }
-                    className="text-sm/6 text-gray-600 hover:text-gray-900"
+                    className="text-sm/6 text-white hover:text-gray-500"
                     target={item.type === 'address' ? '_blank' : undefined}
                     rel={item.type === 'address' ? 'noopener noreferrer' : undefined}
                   >
@@ -60,13 +60,13 @@ export default function Footer() {
           </div>
 
           <div className="lg:pl-16">
-            <h3 className="text-sm/4 font-semibold text-gray-900 mb-6 uppercase">{t('link')}</h3>
+            <h3 className="text-sm/4 font-semibold text-white mb-6 uppercase">{t('link')}</h3>
             <ul role="list" className="space-y-4">
               {navigation.legal.map((item) => (
                 <li key={item.name}>
                   <a
                     href={item.href}
-                    className="text-sm/6 text-gray-600 hover:text-gray-900 underline decoration-gray-600 underline-offset-4"
+                    className="text-sm/6 text-white hover:text-gray-500 underline decoration-gray-600 underline-offset-4"
                   >
                     {item.name}
                   </a>
@@ -77,7 +77,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 border-t border-gray-400 pt-8">
-          <p className="text-center text-sm text-gray-600">
+          <p className="text-center text-sm text-white">
             ALL RIGHTS RESERVED. © Sapience Capital 2025. Irvine, CA. | DESIGNED BY SAPIENCE
           </p>
         </div>

@@ -18,8 +18,8 @@ export default function Header({header}: any) {
   const locale = useLocale()
 
   const loanTypes = [
-      { name: 'Flip loans', href: '/fix-flip' },
-      { name: 'Bridge loan', href: '/bridge-loan' },
+      { name: 'Fix & Flip loans', href: '/fix-flip' },
+      { name: 'Bridge loans', href: '/bridge-loan' },
       { name: 'Ground Up Construction Loans', href: '/ground-up-construction' },
       { name: 'DSCR Loans', href: '/dscr' },
       { name: 'DSCR LOANS (FOREIGN NATIONAL)', href: '/dscr-foreign' },
@@ -39,25 +39,25 @@ export default function Header({header}: any) {
   }
 
   return (
-    <header className="bg-white fixed top-0 w-full z-50 shadow-md">
+    <header className="bg-black fixed top-0 w-full z-50 shadow-md">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <Link href="/" className="-m-1.5 p-1.5">
-          <span className="sr-only">Your Company</span>
+          <span className="sr-only">Sapience</span>
           <Image
             alt="logo"
             src={logo}
-            className="h-12 w-auto"
+            className="h-18 w-auto"
           />
         </Link>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <div key={item.name} className="relative group">
               {item.href ? (
-                <Link href={item.href} className="text-sm/6 font-semibold text-gray-900 uppercase transition-colors duration-200 hover:text-[#FA7F28]">
+                <Link href={item.href} className="text-sm/6 font-semibold text-white uppercase transition-colors duration-200 hover:text-[#FA7F28]">
                   {item.name}
                 </Link>
               ) : (
-                <span className="text-sm/6 font-semibold text-gray-900 uppercase transition-colors duration-200 hover:text-[#FA7F28] cursor-pointer">
+                <span className="text-sm/6 font-semibold text-white uppercase transition-colors duration-200 hover:text-[#FA7F28] cursor-pointer">
                   {item.name}
                 </span>
               )}
@@ -87,7 +87,13 @@ export default function Header({header}: any) {
               onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}
               className="text-sm/6 font-semibold text-gray-900 uppercase transition-colors duration-200 hover:text-[#FA7F28]"
             >
-              🌐 {/* Language icon */}
+              <Image
+                src={locale === 'en' ? '/flags/us.png' : '/flags/vn.png'} // Path to flag images
+                alt={locale === 'en' ? 'US Flag' : 'Vietnam Flag'}
+                width={20} // Specify width
+                height={20} // Specify height
+                className="h-5 w-5"
+              />
             </button>
             {languageDropdownOpen && (
               <div className="absolute w-16 pt-2 left-1/2 -translate-x-1/2">
@@ -97,12 +103,14 @@ export default function Header({header}: any) {
                       onClick={() => handleLanguageChange('en')}
                       className={`block px-4 py-2 text-sm text-gray-700 hover:text-[#FA7F28] ${locale === 'en' ? 'text-[#FA7F28]' : 'text-gray-700'}`}
                     >
+                      <Image src="/flags/us.png" alt="US Flag" width={20} height={20} className="h-5 w-5 inline-block mr-2" />
                       EN
                     </button>
                     <button
                       onClick={() => handleLanguageChange('vi')}
                       className={`block px-4 py-2 text-sm text-gray-700 hover:text-[#FA7F28] ${locale === 'vi' ? 'text-[#FA7F28]' : 'text-gray-700'}`}
                     >
+                      <Image src="/flags/vn.png" alt="Vietnam Flag" width={20} height={20} className="h-5 w-5 inline-block mr-2" />
                       VI
                     </button>
                   </div>
@@ -116,19 +124,19 @@ export default function Header({header}: any) {
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white" // Changed text color to white
           >
             <span className="sr-only">Open main menu</span>
-            <Bars3Icon aria-hidden="true" className="size-6" />
+            <Bars3Icon aria-hidden="true" className="h-6 w-6" /> {/* Ensure icon size is specified */}
           </button>
         </div>
       </nav>
 
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
-        <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div className="fixed inset-0 z-10 transition-opacity duration-300 ease-out" /> {/* Added transition effect */}
+        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transition-transform duration-300 ease-out transform translate-x-full sm:translate-x-0"> {/* Added transition effect */}
           <div className="flex items-center justify-between">
-            <Link href="/" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
               <span className="sr-only">Your Company</span>
               <Image
                 alt="logo"
@@ -154,6 +162,7 @@ export default function Header({header}: any) {
                       <Link
                         href={item.href}
                         className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                        onClick={() => setMobileMenuOpen(false)} // Close menu on link click
                       >
                         {item.name}
                       </Link>
@@ -169,6 +178,7 @@ export default function Header({header}: any) {
                             key={subItem.name}
                             href={subItem.href}
                             className="-mx-3 block rounded-lg px-3 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                            onClick={() => setMobileMenuOpen(false)} // Close menu on sub-item click
                           >
                             {subItem.name}
                           </Link>
