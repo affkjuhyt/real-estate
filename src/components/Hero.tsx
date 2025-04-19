@@ -21,13 +21,13 @@ export default function Hero({messages}: any) {
       >
         <div className="absolute inset-0 bg-black/50"></div> {/* Increased opacity */}
         {/* Content */}
-        <div className="relative mx-auto max-w-7xl px-6 py-16 sm:py-32 lg:px-8"> {/* Adjusted padding for mobile */}
-          <div className="grid grid-cols-1 sm:grid-cols-2"> {/* Changed grid for mobile */}
+        <div className="relative mx-auto max-w-7xl px-6 py-16 sm:py-32 lg:px-8">
+          <div className="grid grid-cols-1"> {/* Use a single column grid for all screen sizes */}
             <div className="col-span-1">
-              <h1 className="text-balance text-3xl sm:text-5xl font-semibold tracking-tight text-white"> {/* Adjusted text size */}
+              <h1 className="text-balance text-3xl sm:text-5xl font-semibold tracking-tight text-white">
                 {messages['home']['title']}
               </h1>
-              <div className="mt-4 sm:mt-6"> {/* Adjusted margin for mobile */}
+              <div className="mt-4 sm:mt-6">
                 <p className="text-pretty text-base sm:text-lg font-semibold text-white">
                 {messages['home']['sub_title']}
                 </p>
