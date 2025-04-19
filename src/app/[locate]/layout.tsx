@@ -16,8 +16,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Real Estate Private Lender in California",
-  description: "",
+  metadataBase: new URL('https://real-estate-lyart-one.vercel.app'),
+  title: {
+    template: '%s | Real Estate Private Lender in California',
+    default: 'Real Estate Private Lender in California | Sapience Capital',
+  },
+  description: 'Leading private lender in California offering Fix & Flip loans, Bridge loans, DSCR loans, and Construction loans with competitive rates and fast approval.',
+  openGraph: {
+    title: 'Real Estate Private Lender in California | Sapience Capital',
+    description: 'Leading private lender in California offering Fix & Flip loans, Bridge loans, DSCR loans, and Construction loans with competitive rates and fast approval.',
+    images: ['/og-image.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default async function RootLayout({
