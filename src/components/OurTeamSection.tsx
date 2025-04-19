@@ -34,7 +34,7 @@ export default function OurTeamSection({ messages }: any) {
     {
       name: "Sam Sohn",
       role: "Jr. Loan officer",
-      imageUrl: "/team/Jr. Loan Officer.jpeg",
+      imageUrl: "/team/Jr. Loan officer.jpeg",
     }
   ];
 
