@@ -53,11 +53,11 @@ export default function Header({header}: any) {
           {navigation.map((item) => (
             <div key={item.name} className="relative group">
               {item.href ? (
-                <Link href={item.href} className="text-sm/6 font-semibold text-white uppercase transition-colors duration-200 hover:text-[#FA7F28]">
+                <Link href={item.href} className="text-sm/6 font-semibold text-white uppercase transition-colors duration-200 hover:text-[#c99909]">
                   {item.name}
                 </Link>
               ) : (
-                <span className="text-sm/6 font-semibold text-white uppercase transition-colors duration-200 hover:text-[#FA7F28] cursor-pointer">
+                <span className="text-sm/6 font-semibold text-white uppercase transition-colors duration-200 hover:text-[#c99909] cursor-pointer">
                   {item.name}
                 </span>
               )}
@@ -69,7 +69,7 @@ export default function Header({header}: any) {
                         <Link
                           key={subItem.name}
                           href={subItem.href}
-                          className="uppercase block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#FA7F28] transition-colors duration-200"
+                          className="uppercase block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#c99909] transition-colors duration-200"
                         >
                           {subItem.name}
                         </Link>
@@ -85,7 +85,7 @@ export default function Header({header}: any) {
           <div className="relative">
             <button
               onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}
-              className="text-sm/6 font-semibold text-gray-900 uppercase transition-colors duration-200 hover:text-[#FA7F28]"
+              className="text-sm/6 font-semibold text-gray-900 uppercase transition-colors duration-200 hover:text-[#c99909]"
             >
               <Image
                 src={locale === 'en' ? '/flags/us.png' : '/flags/vn.png'} // Path to flag images
@@ -101,14 +101,14 @@ export default function Header({header}: any) {
                   <div className="py-1">
                     <button
                       onClick={() => handleLanguageChange('en')}
-                      className={`block px-4 py-2 text-sm text-gray-700 hover:text-[#FA7F28] ${locale === 'en' ? 'text-[#FA7F28]' : 'text-gray-700'}`}
+                      className={`block px-4 py-2 text-sm text-gray-700 hover:text-[#c99909] ${locale === 'en' ? 'text-[#c99909]' : 'text-gray-700'}`}
                     >
                       <Image src="/flags/us.png" alt="US Flag" width={20} height={20} className="h-5 w-5 inline-block mr-2" />
                       EN
                     </button>
                     <button
                       onClick={() => handleLanguageChange('vi')}
-                      className={`block px-4 py-2 text-sm text-gray-700 hover:text-[#FA7F28] ${locale === 'vi' ? 'text-[#FA7F28]' : 'text-gray-700'}`}
+                      className={`block px-4 py-2 text-sm text-gray-700 hover:text-[#c99909] ${locale === 'vi' ? 'text-[#c99909]' : 'text-gray-700'}`}
                     >
                       <Image src="/flags/vn.png" alt="Vietnam Flag" width={20} height={20} className="h-5 w-5 inline-block mr-2" />
                       VI
@@ -195,13 +195,13 @@ export default function Header({header}: any) {
           <div className="mt-6 flex justify-center gap-2">
             <button
               onClick={() => handleLanguageChange('en')}
-              className={`px-4 py-2 rounded ${locale === 'en' ? 'bg-[#FA7F28] text-white' : 'text-gray-700'}`}
+              className={`px-4 py-2 rounded ${locale === 'en' ? 'bg-[#c99909] text-white' : 'text-gray-700'}`}
             >
               English
             </button>
             <button
               onClick={() => handleLanguageChange('vi')}
-              className={`px-4 py-2 rounded ${locale === 'vi' ? 'bg-[#FA7F28] text-white' : 'text-gray-700'}`}
+              className={`px-4 py-2 rounded ${locale === 'vi' ? 'bg-[#c99909] text-white' : 'text-gray-700'}`}
             >
               Tiếng Việt
             </button>

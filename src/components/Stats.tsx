@@ -30,7 +30,7 @@ export default function Stats({ messages }: any) {
               <span className="text-2xl font-normal text-white sm:text-3xl">
                 {stat.prefix}
               </span>
-              <span className="text-4xl font-bold text-[#FA7F28] sm:text-6xl">
+              <span className="text-4xl font-bold text-[#c99909] sm:text-6xl">
                 {stat.value}
               </span>
               <span className="text-2xl font-normal text-white sm:text-3xl mt-1">

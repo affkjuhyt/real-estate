@@ -13,13 +13,13 @@ export default function Financing({ messages}: any) {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="/contact-us"
-                className="rounded-md bg-[#FA7F28] px-6 py-4 text-sm font-semibold text-white shadow-sm inline-flex items-center group transition-all duration-300 hover:px-8"
+                className="rounded-md bg-[#c99909] px-6 py-4 text-sm font-semibold text-white shadow-sm inline-flex items-center group transition-all duration-300 hover:px-8"
               >
                 {messages['about']['finance_button']}
               </a>
               <a
                 href="/apply-now"
-                className="rounded-md bg-[#FA7F28] px-6 py-4 text-sm font-semibold text-white shadow-sm inline-flex items-center group transition-all duration-300 hover:px-8"
+                className="rounded-md bg-[#c99909] px-6 py-4 text-sm font-semibold text-white shadow-sm inline-flex items-center group transition-all duration-300 hover:px-8"
               >
                 {messages['about']['apply_now']}
               </a>

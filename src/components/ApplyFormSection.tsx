@@ -230,7 +230,7 @@ export default function ApplyFormSection() {
                 <div className="col-span-full flex items-center justify-end">
                   <button
                     type="submit"
-                    className="rounded-md bg-[#FA7F29] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#e06a15] transition-colors"
+                    className="rounded-md bg-[#c99909] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#e06a15] transition-colors"
                   >
                     {t('submit')}
                   </button>

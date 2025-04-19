@@ -22,8 +22,8 @@ export default function MissionAndVisionSection({ messages}: any) {
                 key={feature.name}
                 className="flex flex-col items-start text-left"
               >
-                <dt className="flex items-center gap-4 text-[#FA7F28] text-2xl font-semibold">
-                  <div className="h-[2px] w-8 bg-[#FA7F28]"></div>
+                <dt className="flex items-center gap-4 text-[#c99909] text-2xl font-semibold">
+                  <div className="h-[2px] w-8 bg-[#c99909]"></div>
                   {feature.name}
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-lg text-gray-600">

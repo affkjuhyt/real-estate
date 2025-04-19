@@ -42,8 +42,8 @@ export default function OurTeamSection({ messages }: any) {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="flex items-center gap-4 text-2xl font-semibold tracking-tight text-[#FA7F28] sm:text-3xl">
-            <div className="h-[2px] w-8 bg-[#FA7F28]"></div>
+          <h2 className="flex items-center gap-4 text-2xl font-semibold tracking-tight text-[#c99909] sm:text-3xl">
+            <div className="h-[2px] w-8 bg-[#c99909]"></div>
             {messages['about']['our_team']}
           </h2>
         </div>

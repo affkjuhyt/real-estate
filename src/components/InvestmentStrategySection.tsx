@@ -4,7 +4,7 @@ export default function InvestmentStrategySection() {
   const t = useTranslations('services');
 
   return (
-    <div className="bg-[#1C3455]">
+    <div className="bg-[#2E3B4E]">
       <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-5xl">
           <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-3xl text-center mb-12">
@@ -16,23 +16,23 @@ export default function InvestmentStrategySection() {
           <p className="text-pretty text-lg/6 text-white/90 mb-4">{t('investment_start')}</p>
           <ul className="space-y-4 text-lg/6 text-white/90 mb-6">
             <li className="flex items-center">
-              <div className="h-2 w-2 rounded-full bg-[#FA7F28] mr-3"></div>
+              <div className="h-2 w-2 rounded-full bg-[#c99909] mr-3"></div>
               {t('investment_list_1')}
             </li>
             <li className="flex items-center">
-              <div className="h-2 w-2 rounded-full bg-[#FA7F28] mr-3"></div>
+              <div className="h-2 w-2 rounded-full bg-[#c99909] mr-3"></div>
               {t('investment_list_2')}
             </li>
             <li className="flex items-center">
-              <div className="h-2 w-2 rounded-full bg-[#FA7F28] mr-3"></div>
+              <div className="h-2 w-2 rounded-full bg-[#c99909] mr-3"></div>
               {t('investment_list_3')}
             </li>
             <li className="flex items-center">
-              <div className="h-2 w-2 rounded-full bg-[#FA7F28] mr-3"></div>
+              <div className="h-2 w-2 rounded-full bg-[#c99909] mr-3"></div>
               {t('investment_list_4')}
             </li>
             <li className="flex items-center">
-              <div className="h-2 w-2 rounded-full bg-[#FA7F28] mr-3"></div>
+              <div className="h-2 w-2 rounded-full bg-[#c99909] mr-3"></div>
               {t('investment_list_5')}
             </li>
           </ul>

@@ -15,11 +15,11 @@ export default function FintechServiceSection() {
           </p>
           <ul className="space-y-4 text-lg/6 text-gray-600">
             <li className="flex items-center">
-              <div className="h-2 w-2 rounded-full bg-[#FA7F28] mr-3"></div>
+              <div className="h-2 w-2 rounded-full bg-[#c99909] mr-3"></div>
               {t('fintech_consulting_list_1')}
             </li>
             <li className="flex items-center">
-              <div className="h-2 w-2 rounded-full bg-[#FA7F28] mr-3"></div>
+              <div className="h-2 w-2 rounded-full bg-[#c99909] mr-3"></div>
               {t('fintech_consulting_list_2')}
             </li>
           </ul>

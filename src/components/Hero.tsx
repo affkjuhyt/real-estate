@@ -31,7 +31,7 @@ export default function Hero({messages}: any) {
                 <p className="text-pretty text-base sm:text-lg font-semibold text-white">
                 {messages['home']['sub_title']}
                 </p>
-                <p className="text-pretty text-base sm:text-lg font-semibold text-[#FA7F28]">
+                <p className="text-pretty text-base sm:text-lg font-semibold text-[#c99909]">
                 {messages['home']['content']}
                 </p>
               </div>

@@ -25,7 +25,7 @@ export default function InquireAboutSection() {
                   htmlFor="first-name"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.first_name')} <span className="text-[#FA7F28]">*</span>
+                  {t('form.first_name')} <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -43,7 +43,7 @@ export default function InquireAboutSection() {
                   htmlFor="last-name"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.last_name')} <span className="text-[#FA7F28]">*</span>
+                  {t('form.last_name')} <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -61,7 +61,7 @@ export default function InquireAboutSection() {
                   htmlFor="company"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.company')} <span className="text-[#FA7F28]">*</span>
+                  {t('form.company')} <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -79,7 +79,7 @@ export default function InquireAboutSection() {
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
                   {t('form.requested_loan_amount')}{" "}
-                  <span className="text-[#FA7F28]">*</span>
+                  <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -96,7 +96,7 @@ export default function InquireAboutSection() {
                   htmlFor="current-working"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.current_working_with')} <span className="text-[#FA7F28]">*</span>
+                  {t('form.current_working_with')} <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -113,7 +113,7 @@ export default function InquireAboutSection() {
                   htmlFor="loan-type"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.loan_type')} <span className="text-[#FA7F28]">*</span>
+                  {t('form.loan_type')} <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <select
@@ -140,7 +140,7 @@ export default function InquireAboutSection() {
                   htmlFor="property-address"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.property_address')} <span className="text-[#FA7F28]">*</span>
+                  {t('form.property_address')} <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <textarea
@@ -172,7 +172,7 @@ export default function InquireAboutSection() {
             <div className="mt-8 flex justify-end">
               <button
                 type="submit"
-                className="rounded-md bg-[#FA7F28] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#e06a15] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FA7F28]"
+                className="rounded-md bg-[#c99909] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#e06a15] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FA7F28]"
               >
                 {t('form.submit')}
               </button>

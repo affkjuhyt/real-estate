@@ -32,14 +32,14 @@ export default function GroupUpConstructionSection({ messages}: any) {
               </p>
               <button
                 onClick={() => router.push("/apply-now")}
-                className="mt-8 bg-[#FA7F29] text-white px-6 py-2.5 rounded-md font-semibold hover:bg-[#e06a15] transition-colors hover:cursor-pointer"
+                className="mt-8 bg-[#c99909] text-white px-6 py-2.5 rounded-md font-semibold hover:bg-[#e06a15] transition-colors hover:cursor-pointer"
               >
                 {messages['ground_up_construction']['apply_now']}
               </button>
             </div>
           </div>
           <div className="bg-gray-50 rounded-xl shadow-xl p-6 overflow-hidden">
-            <h3 className="text-2xl font-semibold text-[#FA7F28] mb-6 uppercase">
+            <h3 className="text-2xl font-semibold text-[#c99909] mb-6 uppercase">
               {messages['ground_up_construction']['term']}
             </h3>
             <div className="overflow-y-auto max-h-[600px] pr-4 space-y-6">

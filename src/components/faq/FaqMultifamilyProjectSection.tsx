@@ -40,7 +40,7 @@ export default function FaqMultifamilyProjectSection() {
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-16">
         <div className="mx-auto max-w-6xl">
           <h2 className="flex items-center gap-4 text-2xl font-semibold tracking-tight text-[#FA7F29] sm:text-2xl">
-            <div className="h-[2px] w-8 bg-[#FA7F29]"></div>
+            <div className="h-[2px] w-8 bg-[#c99909]"></div>
             FAQ
           </h2>
           <dl className="mt-16 grid grid-cols-1 gap-x-8 lg:grid-cols-2">
