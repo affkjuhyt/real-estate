@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { useLocale } from 'next-intl'
-import logo from '../../../public/logo-real-estate.jpeg'
+import logo from '../../../public/logo-real-estate.png'
 
 
 export default function Header({header}: any) {
@@ -40,13 +40,13 @@ export default function Header({header}: any) {
 
   return (
     <header className="bg-black fixed top-0 w-full z-50 shadow-md">
-      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-        <Link href="/" className="-m-1.5 p-1.5">
+      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between lg:px-8">
+        <Link href="/">
           <span className="sr-only">Sapience</span>
           <Image
             alt="logo"
             src={logo}
-            className="h-18 w-auto"
+            className="h-32 w-auto"
           />
         </Link>
         <div className="hidden lg:flex lg:gap-x-12">

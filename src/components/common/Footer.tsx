@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo from '../../../public/logo-real-estate.jpeg'
+import logo from '../../../public/logo-real-estate.png'
 import { useTranslations } from 'next-intl';
 
 export default function Footer() {
@@ -29,7 +29,7 @@ export default function Footer() {
               <Image
                 alt="Company name"
                 src={logo}
-                className="h-18 w-18 mb-8 object-contain"
+                className="h-32 w-32 mb-8 object-contain"
               />
             </a>
             <h3 className="text-sm/4 font-semibold text-white mb-6 uppercase">
