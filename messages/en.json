@@ -618,5 +618,30 @@
     "new_construction": "New Construction",
     "refinance": "Refinance",
     "cash_out": "Cash Out"
+  },
+  "asset_utilization": {
+    "title": "What is a Bank Statement Loan?",
+    "a_content": "A",
+    "b_content": "Bank Statement Loan",
+    "c_content": "is a type of mortgage designed primarily for",
+    "d_content": "self-employed borrowers",
+    "e_content": "who may not have traditional income documentation like W-2s or pay stubs. Instead of using tax returns to verify income, lenders use",
+    "f_content": "bank statements",
+    "g_content": "(usually from the past 12–24 months) to assess the borrower’s cash flow and ability to repay the loan.",
+    "apply_now": "Apply Now",
+    "a_title": "Program Highlights",
+    "loan_requirements": [
+      "12 and 24-month personal and business bank statement income qualifications available",
+      "Primary, second homes, and investment properties allowed (SFR, Condo, 2-4units)",
+      "Purchase, rate/term refinance, and cash-out refinance",
+      "Multiple accounts may be used ***combination of personal and business not allowed***",
+      "Two-year history of self-employment required",
+      "Loan amounts up to $3.5 million and 50% DTI",
+      "Cash out Refinance up to $3MM",
+      "LTV up to 90% with no MI",
+      "FICO down to 620",
+      "100% of eligible deposits used for income",
+      "50% expense ratio, third-party prepared expense letter, or third-party prepared P&L"
+    ]
   }
 }

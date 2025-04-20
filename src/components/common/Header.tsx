@@ -23,6 +23,8 @@ export default function Header({header}: any) {
       { name: 'Ground Up Construction Loans', href: '/ground-up-construction' },
       { name: 'DSCR Loans', href: '/dscr' },
       { name: 'DSCR LOANS (FOREIGN NATIONAL)', href: '/dscr-foreign' },
+      { name: 'ASSET UTILIZATION LOANS', href: '/asset-utilization' },
+      { name: 'BANK STATEMENT LOANS', href: '/bank-statement' },
   ]
 
   const navigation = [

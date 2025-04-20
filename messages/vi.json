@@ -586,5 +586,30 @@
     "new_construction": "Xây dựng mới",
     "refinance": "Tái tài trợ",
     "cash_out": "Rút tiền mặt"
-  } 
+  },
+  "asset_utilization": {
+    "title": "Khoản vay dựa trên sao kê ngân hàng là gì?",
+    "a_content": "Chương trình",
+    "b_content": "khoản vay dựa trên sao kê ngân hàng",
+    "c_content": "là một loại thế chấp được thiết kế chủ yếu dành cho",
+    "d_content": "những người tự kinh doanh,",
+    "e_content": "những người có thể không có các giấy tờ chứng minh thu nhập truyền thống như W-2 hoặc phiếu lương. Thay vì sử dụng tờ khai thuế để xác minh thu nhập, các bên cho vay sử dụng",
+    "f_content": "sao kê ngân hàng",
+    "g_content": "(thường trong 12–24 tháng gần nhất) để đánh giá dòng tiền và khả năng trả nợ của người vay.",
+    "apply_now": "Ứng tuyển ngay",
+    "a_title": "Điểm nổi bật của chương trình",
+    "loan_requirements": [
+      "Xét duyệt thu nhập dựa trên sao kê ngân hàng cá nhân hoặc doanh nghiệp trong 12 hoặc 24 tháng",
+      "Chấp nhận nhà chính, nhà thứ hai và bất động sản đầu tư (Nhà đơn lập, căn hộ chung cư, nhà 2–4 đơn vị)",
+      "Hỗ trợ mua nhà, tái tài trợ lãi suất/điều khoản, và tái tài trợ rút tiền mặt",
+      "Có thể sử dụng nhiều tài khoản ***không được kết hợp tài khoản cá nhân và doanh nghiệp***",
+      "Yêu cầu có lịch sử tự kinh doanh tối thiểu 2 năm",
+      "Khoản vay lên đến 3,5 triệu USD và tỷ lệ nợ trên thu nhập (DTI) đến 50%",
+      "Rút tiền mặt lên đến 3 triệu USD",
+      "Tỷ lệ vay trên giá trị tài sản (LTV) lên đến 90% không cần bảo hiểm vay thế chấp (MI)",
+      "Điểm tín dụng (FICO) chấp nhận từ 620",
+      "100% các khoản tiền gửi hợp lệ được tính vào thu nhập",
+      "Áp dụng tỷ lệ chi phí 50%, thư xác nhận chi phí từ bên thứ ba, hoặc báo cáo lãi/lỗ từ bên thứ ba chuẩn bị"
+    ]
+  }
 }
