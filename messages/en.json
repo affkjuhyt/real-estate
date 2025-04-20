@@ -619,7 +619,7 @@
     "refinance": "Refinance",
     "cash_out": "Cash Out"
   },
-  "asset_utilization": {
+  "bank_statement": {
     "title": "What is a Bank Statement Loan?",
     "a_content": "A",
     "b_content": "Bank Statement Loan",
@@ -642,6 +642,34 @@
       "FICO down to 620",
       "100% of eligible deposits used for income",
       "50% expense ratio, third-party prepared expense letter, or third-party prepared P&L"
+    ]
+  },
+  "asset_utilization": {
+    "title": "What is an Asset Utilization loan program?",
+    "a_content": "A",
+    "b_content": "Asset Utilization Loan Program",
+    "c_content": "is a type of loan that allows borrowers to qualify based on their assets rather than traditional income verification. It’s commonly used by high-net-worth individuals who may not have regular income but hold significant investments or savings.",
+    "d_content": "Instead of showing pay stubs, W-2s, or tax returns, the lender calculates a borrower’s ability to repay the loan based on ",
+    "e_content": " liquid assets",
+    "f_content": " such as:",
+    "list_first": "Bank account balances",
+    "list_second": "Stocks and bonds",
+    "list_third": "Retirement accounts (with limitations)",
+    "list_fourth": "Trust funds",
+    "apply_now": "Apply Now",
+    "a_title": "Program Highlights",
+    "loan_requirements": [
+      "Loans up to $3.5M",
+      "LTV up to 80%",
+      "FICO min 660",
+      "No liquidation required",
+      "30-Year and 40-Year Fixed with option for 10-Year interest only",
+      "Purchase and Rate/Term Refinances allowed on Primary Residence, Second Homes, and Investment Properties SFR, Condos, 2-4units",
+      "Both DTI & no DTI qualification options",
+      "6-Months' seasoning of all assets required",
+      "100% of checking, savings, and money market accounts",
+      "80% of the remaining value of stocks and bonds",
+      "70% of retirement assets"
     ]
   }
 }

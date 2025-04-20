@@ -2,10 +2,10 @@
 
 import { useRouter } from "next/navigation";
 
-export default function AssetUtilizationSection({ messages }: any) {
+export default function BankStatementSection({ messages }: any) {
   const router = useRouter();
 
-  const loanRequirements = messages["asset_utilization"]["loan_requirements"];
+  const loanRequirements = messages["bank_statement"]["loan_requirements"];
 
   return (
     <div className="overflow-hidden bg-gray-100 py-24 sm:py-32">
@@ -14,44 +14,28 @@ export default function AssetUtilizationSection({ messages }: any) {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <p className="text-xl mt-6 text-black font-bold uppercase">
-                {messages["asset_utilization"]["title"]}
+                {messages["bank_statement"]["title"]}
               </p>
               <p className="text-xl mt-2 text-black">
-                {messages["asset_utilization"]["a_content"]} <b>
-                  {messages["asset_utilization"]["b_content"]}</b> {messages["asset_utilization"]["c_content"]}
+                {messages["bank_statement"]["a_content"]} <b>
+                  {messages["bank_statement"]["b_content"]}
+                </b> {messages["bank_statement"]["c_content"]} <b>
+                  {messages["bank_statement"]["d_content"]}
+                </b> {messages["bank_statement"]["e_content"]} <b>
+                  {messages["bank_statement"]["f_content"]}
+                </b> {messages["bank_statement"]["g_content"]}
               </p>
-              <p className="text-xl mt-2 text-black">
-                  {messages["asset_utilization"]["d_content"]}
-                  <b>
-                  {messages["asset_utilization"]["e_content"]}
-                  </b>
-                  {messages["asset_utilization"]["f_content"]}
-              </p>
-              <ul className="list-disc pl-5 space-y-2 mt-2">
-                <li className="text-gray-600">
-                  {messages["asset_utilization"]["list_first"]}
-                </li>
-                <li className="text-gray-600">
-                  {messages["asset_utilization"]["list_second"]}
-                </li>
-                <li className="text-gray-600">
-                  {messages["asset_utilization"]["list_third"]}
-                </li>
-                <li className="text-gray-600">
-                  {messages["asset_utilization"]["list_fourth"]}
-                </li>
-              </ul>
               <button
                 onClick={() => router.push("/apply-now")}
                 className="mt-8 bg-[#c99909] text-white px-6 py-2.5 rounded-md font-semibold hover:bg-[#e06a15] transition-colors hover:cursor-pointer"
               >
-                {messages["asset_utilization"]["apply_now"]}
+                {messages["bank_statement"]["apply_now"]}
               </button>
             </div>
           </div>
           <div className="bg-gray-50 rounded-xl shadow-xl p-6 overflow-hidden">
             <h3 className="text-2xl font-semibold text-[#c99909] mb-6 uppercase">
-              {messages["asset_utilization"]["a_title"]}
+              {messages["bank_statement"]["a_title"]}
             </h3>
             <div className="overflow-y-auto max-h-[600px] pr-4 space-y-6">
               <div>

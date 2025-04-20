@@ -587,7 +587,7 @@
     "refinance": "Tái tài trợ",
     "cash_out": "Rút tiền mặt"
   },
-  "asset_utilization": {
+  "bank_statement": {
     "title": "Khoản vay dựa trên sao kê ngân hàng là gì?",
     "a_content": "Chương trình",
     "b_content": "khoản vay dựa trên sao kê ngân hàng",
@@ -610,6 +610,35 @@
       "Điểm tín dụng (FICO) chấp nhận từ 620",
       "100% các khoản tiền gửi hợp lệ được tính vào thu nhập",
       "Áp dụng tỷ lệ chi phí 50%, thư xác nhận chi phí từ bên thứ ba, hoặc báo cáo lãi/lỗ từ bên thứ ba chuẩn bị"
+    ]
+  },
+  "asset_utilization": {
+    "title": "Chương trình vay dựa trên giá trị tài sản là gì?",
+    "a_content": "Chương trình",
+    "b_content": "vay dựa trên giá trị tài sản",
+    "c_content": "là một loại khoản vay cho phép người vay đủ điều kiện dựa trên tài sản họ sở hữu thay vì dựa vào việc xác minh thu nhập truyền thống. Loại hình vay này thường được sử dụng bởi những cá nhân có giá trị tài sản ròng cao, những người có thể không có thu nhập thường xuyên nhưng sở hữu nhiều khoản đầu tư hoặc tiền tiết kiệm đáng kể.",
+    "d_content": "Thay vì phải cung cấp bảng lương, mẫu W-2 hoặc hồ sơ khai thuế, người cho vay sẽ tính toán khả năng trả nợ của người vay dựa trên",
+    "e_content": " các tài sản có tính thanh khoản",
+    "f_content": " như :",
+    "list_first": "Số dư tài khoản ngân hàng",
+    "list_second": "Cổ phiếu và trái phiếu",
+    "list_third": "Tài khoản hưu trí (có giới hạn nhất định)",
+    "list_fourth": "Quỹ tín thác",
+    "apply_now": "Ứng tuyển ngay",
+    "a_title": "Các điểm nổi bật của chương trình",
+    "loan_requirements": [
+      "Khoản vay lên đến $3,5 triệu",
+      "Tỷ lệ vay trên giá trị tài sản (LTV) lên đến 80%",
+      "Điểm tín dụng FICO tối thiểu 660",
+      "Không yêu cầu thanh lý tài sản",
+      "Lựa chọn thời hạn cố định 30 năm hoặc 40 năm, kèm tùy chọn chỉ trả lãi trong 10 năm đầu",
+      "Áp dụng cho mua nhà, tái cấp vốn với điều khoản mới đối với nhà chính, nhà nghỉ dưỡng, và bất động sản đầu tư",
+      "Áp dụng cho nhà đơn lập (SFR), căn hộ (condos), và nhà từ 2 đến 4 căn hộ",
+      "Có cả hai tùy chọn xét DTI (tỷ lệ nợ trên thu nhập) và không xét DTI",
+      "Yêu cầu tài sản phải có lịch sử sở hữu ít nhất 6 tháng",
+      "Tính 100% giá trị tài khoản séc, tiết kiệm và thị trường tiền tệ",
+      "Tính 80% giá trị còn lại của cổ phiếu và trái phiếu",
+      "Tính 70% giá trị tài sản hưu trí"
     ]
   }
 }
