@@ -142,24 +142,9 @@ export default function Header({header}: any) {
       </nav>
 
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
-        <div className="fixed inset-0 mt-50 z-99 transition-opacity duration-300 ease-out" /> {/* Added transition effect */}
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transition-transform duration-300 ease-out transform translate-x-full sm:translate-x-0"> {/* Added transition effect */}
+        <div className="fixed inset-0 bg-black/25" /> {/* Simplified overlay */}
+        <DialogPanel className={`fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transform transition-transform duration-300 ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           <div className="flex items-center justify-between">
-            <Link href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
-              <span className="sr-only">Your Company</span>
-              <Image
-                alt="logo"
-                src={logo}
-                className="h-20 w-auto"
-              />
-              <Image
-                alt="character"
-                src="/character.jpeg"
-                width={100}
-                height={100}
-                className="h-10 w-auto"
-              />
-            </Link>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
