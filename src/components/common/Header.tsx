@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { useLocale } from 'next-intl'
-import logo from '../../../public/logo-real-estate.png'
+import logo from '../../../public/logo.jpeg'
 
 
 export default function Header({header}: any) {
@@ -43,12 +43,19 @@ export default function Header({header}: any) {
   return (
     <header className="bg-black fixed top-0 w-full z-50 shadow-md">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between lg:px-8">
-        <Link href="/">
+        <Link href="/" className="flex items-center gap-2 py-4">
           <span className="sr-only">Sapience</span>
           <Image
             alt="logo"
             src={logo}
-            className="h-32 w-auto"
+            className="h-20 w-auto"
+          />
+          <Image
+            alt="character"
+            src="/character.jpeg"
+            width={100}
+            height={100}
+            className="h-10 w-auto"
           />
         </Link>
         <div className="hidden lg:flex lg:gap-x-12">
@@ -135,7 +142,7 @@ export default function Header({header}: any) {
       </nav>
 
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
-        <div className="fixed inset-0 z-10 transition-opacity duration-300 ease-out" /> {/* Added transition effect */}
+        <div className="fixed inset-0 mt-50 z-99 transition-opacity duration-300 ease-out" /> {/* Added transition effect */}
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transition-transform duration-300 ease-out transform translate-x-full sm:translate-x-0"> {/* Added transition effect */}
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
@@ -143,7 +150,14 @@ export default function Header({header}: any) {
               <Image
                 alt="logo"
                 src={logo}
-                className="h-8 w-auto"
+                className="h-20 w-auto"
+              />
+              <Image
+                alt="character"
+                src="/character.jpeg"
+                width={100}
+                height={100}
+                className="h-10 w-auto"
               />
             </Link>
             <button
@@ -157,7 +171,7 @@ export default function Header({header}: any) {
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
-              <div className="space-y-2 py-6">
+              <div className="space-y-2 py-6 mt-20">
                 {navigation.map((item) => (
                   <div key={item.name}>
                     {item.href ? (

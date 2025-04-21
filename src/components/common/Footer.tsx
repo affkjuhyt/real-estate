@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo from '../../../public/logo-real-estate.png'
+import logo from '../../../public/logo.jpeg'
 import { useTranslations } from 'next-intl';
 
 export default function Footer() {
@@ -25,11 +25,18 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           <div>
-            <a href="/">
+            <a className="mb-4 flex items-center gap-2" href="/">
               <Image
-                alt="Company name"
+                alt="logo"
                 src={logo}
-                className="h-32 w-32 mb-8 object-contain"
+                className="h-20 w-auto"
+              />
+              <Image
+                alt="character"
+                src="/character.jpeg"
+                width={100}
+                height={100}
+                className="h-10 w-auto"
               />
             </a>
             <h3 className="text-sm/4 font-semibold text-white mb-6 uppercase">

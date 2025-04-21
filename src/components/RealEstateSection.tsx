@@ -7,7 +7,7 @@ export default function RealEstateSection() {
     <div className="bg-[#F7F8F8]">
       <div className="mx-auto max-w-5xl py-24 sm:py-32 px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-balance text-4xl font-semibold tracking-tight text-gray-600 sm:text-3xl mb-12">
+          <h1 className="text-balance text-4xl font-semibold tracking-tight text-gray-600 sm:text-3xl mb-12 mt-12">
             {t('real_estate_consultiong')}
           </h1>
           <div className="max-w-4xl mx-auto">
