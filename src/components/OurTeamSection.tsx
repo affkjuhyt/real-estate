@@ -56,14 +56,13 @@ export default function OurTeamSection({ messages }: any) {
               <img
                 alt=""
                 src={person.imageUrl}
-                className="aspect-[14/13] w-full rounded-2xl object-cover cursor-pointer"
+                className="h-[400px] w-full rounded-2xl object-cover object-top cursor-pointer"
                 onClick={() => setSelectedImage(person.imageUrl)}
               />
               <h3 className="mt-6 text-lg/8 font-semibold tracking-tight text-black">
                 {person.name}
               </h3>
               <p className="text-base/7 text-black">{person.role}</p>
-              {/* <p className="text-sm/6 text-black">{person.location}</p> */}
             </li>
           ))}
         </ul>
