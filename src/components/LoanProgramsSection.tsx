@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { title } from "process";
 
 export default function LoanProgramsSection({ messages}: any) {
   const loanPrograms = [
@@ -30,6 +31,16 @@ export default function LoanProgramsSection({ messages}: any) {
       title: messages['loan_programs']['dscr_foreign_title'],
       description: messages['loan_programs']['dscr_foreign_content'],
       link: "/dscr-foreign"
+    },
+    {
+      title: messages['loan_programs']['asset_utilization_title'],
+      description: messages['loan_programs']['asset_utilization_content'],
+      link: "/asset-utilization"
+    },
+    {
+      title: messages['loan_programs']['bank_statement_title'],
+      description: messages['loan_programs']['bank_statement_content'],
+      link: "/bank-statement"
     }
   ];
 
@@ -58,10 +69,10 @@ export default function LoanProgramsSection({ messages}: any) {
             ))}
           </div>
 
-          {/* Bottom row with 2 centered items */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 sm:gap-8 max-w-3xl mx-auto">
+          {/* Bottom row with 4 centered items */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 mx-auto">
             {loanPrograms.slice(3).map((program, index) => (
-              <div key={index} className="border border-gray-200 p-6 sm:p-10 flex flex-col rounded-lg items-center text-center shadow-sm hover:shadow-md transition-shadow">
+              <div key={index} className="border border-gray-200 p-6 sm:p-10 flex flex-col rounded-lg items-center text-center shadow-sm hover:shadow-md transition-shadow w-full">
                 <h2 className="mt-4 text-xl font-semibold uppercase sm:text-2xl text-black">{program.title}</h2>
                 <h3 className="text-sm text-gray-600 mb-6 sm:text-base">{program.description}</h3>
                 <Link 

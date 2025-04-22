@@ -7,7 +7,7 @@ export default function OurTeamSection({ messages }: any) {
 
   const people = [
     {
-      name: "Trung",
+      name: "Trung Nguyen",
       role: messages['about']['co_founder'],
       imageUrl: "/team/Co-Founder.jpeg",
     },
