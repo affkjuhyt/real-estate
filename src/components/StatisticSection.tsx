@@ -18,7 +18,7 @@ export default function StatisticSection() {
   ];
 
   return (
-    <div className="p-4 bg-white">
+    <div className="p-4 bg-white statistic-section">
       <h2 className="text-2xl text-black font-bold text-center mb-6">Market Reports</h2> {/* Added section title */}
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
         {imagePaths.map((path, index) => (
