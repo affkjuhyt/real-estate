@@ -8,7 +8,6 @@ import Hero from "@/components/Hero";
 import LoanProgramsSection from "@/components/LoanProgramsSection";
 import Stats from "@/components/Stats";
 import { use } from 'react';
-import StatisticSection from '@/components/StatisticSection';
 
 export default function Home({ params }: { params: Promise<{ locate: string }> }) {
   const resolvedParams = use(params);
@@ -34,7 +33,6 @@ export default function Home({ params }: { params: Promise<{ locate: string }> }
       <ApplyNowSection messages={messages}></ApplyNowSection>
       <LoanProgramsSection messages={messages}></LoanProgramsSection>
       <Stats messages={messages}></Stats>
-      <StatisticSection></StatisticSection>
       <Financing messages={messages}></Financing>
     </div>
   );

@@ -17,18 +17,6 @@ export default function Header({header}: any) {
   const router = useRouter()
   const locale = useLocale()
 
-  const handleReportResourceClick = () => {
-    router.push('/');
-    // Wait for navigation to complete then scroll
-    setTimeout(() => {
-      const statisticSection = document.querySelector('.statistic-section');
-      if (statisticSection) {
-        statisticSection.scrollIntoView({ behavior: 'smooth' });
-      }
-    }, 100);
-    setMobileMenuOpen(false); // Close mobile menu if open
-  };
-
   const loanTypes = [
       { name: 'Fix & Flip loans', href: '/fix-flip' },
       { name: 'Bridge loans', href: '/bridge-loan' },
@@ -41,7 +29,7 @@ export default function Header({header}: any) {
 
   const services = [
     { name: header['consulting'], href: '/services' },
-    { name: header['report_resource'], href: '#', onClick: handleReportResourceClick },
+    { name: header['report_resource'], href: '/report-and-resource' }, // Changed href and removed onClick
   ]
 
   const navigation = [
@@ -92,15 +80,6 @@ export default function Header({header}: any) {
                   <div className="bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div className="py-1">
                       {item.items?.map((subItem) => (
-                        'onClick' in subItem ? (
-                          <button
-                            key={subItem.name}
-                            onClick={subItem.onClick}
-                            className="uppercase block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#c99909] transition-colors duration-200"
-                          >
-                            {subItem.name}
-                          </button>
-                        ) : (
                           <Link
                             key={subItem.name}
                             href={subItem.href}
@@ -109,7 +88,7 @@ export default function Header({header}: any) {
                             {subItem.name}
                           </Link>
                         )
-                      ))}
+                      )}
                     </div>
                   </div>
                 </div>
