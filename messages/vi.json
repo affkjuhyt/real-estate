@@ -130,7 +130,9 @@
       "bridge_loan": "Khoản vay cầu nối",
       "ground_up_construction": "Khoản vay xây dựng từ đầu",
       "dscr_loan": "Khoản vay DSCR",
-      "dscr_foreign": "Khoản vay DSCR (Nhà đầu tư nước ngoài)"
+      "dscr_foreign": "Khoản vay DSCR (Nhà đầu tư nước ngoài)",
+      "success_message": "Gửi yêu cầu thành công",
+      "error_message": "Gửi yêu cầu thất bại"
     }
   },
   "fix_flip": {

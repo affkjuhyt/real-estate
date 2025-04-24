@@ -1,23 +1,61 @@
+'use client'
+
 import {
   BuildingOffice2Icon,
   EnvelopeIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
-import { useTranslations } from "next-intl";
+import React from "react";
 
-export default function InquireAboutSection() {
-  const t = useTranslations('contact');
+export default function InquireAboutSection({ messages }: any) {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.currentTarget);
+    const formValues = Object.fromEntries(formData.entries());
+    
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          firstName: formValues['first-name'],
+          lastName: formValues['last-name'],
+          company: formValues['company'],
+          loanAmount: formValues['loan-amount'],
+          currentWorking: formValues['current-working'],
+          loanType: formValues['loan-type'],
+          propertyAddress: formValues['property-address'],
+          note: formValues['additional-info']
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const result = await response.json();
+      alert(messages['contact']['form']['success_message']);
+      // Redirect to "/"
+      window.location.href = "/";
+      
+    } catch (error) {
+      alert(messages['contact']['form']['error_message']);
+    }
+  }
+
   return (
     <div className="relative isolate bg-white">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <form
-          action="#"
-          method="POST"
+          onSubmit={handleSubmit}
           className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
         >
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <h2 className="text-2xl font-semibold text-gray-900 mb-8">
-              {t('form.name')}
+              {messages['contact']['form']['name']}
             </h2>
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
@@ -25,7 +63,7 @@ export default function InquireAboutSection() {
                   htmlFor="first-name"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.first_name')} <span className="text-[#c99909]">*</span>
+                  {messages['contact']['form']['first_name']} <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -43,7 +81,7 @@ export default function InquireAboutSection() {
                   htmlFor="last-name"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.last_name')} <span className="text-[#c99909]">*</span>
+                  {messages['contact']['form']['last_name']} <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -61,7 +99,7 @@ export default function InquireAboutSection() {
                   htmlFor="company"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.company')} <span className="text-[#c99909]">*</span>
+                  {messages['contact']['form']['company']} <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -78,7 +116,7 @@ export default function InquireAboutSection() {
                   htmlFor="loan-amount"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.requested_loan_amount')}{" "}
+                  {messages['contact']['form']['requested_loan_amount']}{" "}
                   <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
@@ -96,7 +134,7 @@ export default function InquireAboutSection() {
                   htmlFor="current-working"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.current_working_with')} <span className="text-[#c99909]">*</span>
+                  {messages['contact']['form']['current_working_with']} <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -113,7 +151,7 @@ export default function InquireAboutSection() {
                   htmlFor="loan-type"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.loan_type')} <span className="text-[#c99909]">*</span>
+                  {messages['contact']['form']['loan_type']} <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <select
@@ -122,15 +160,23 @@ export default function InquireAboutSection() {
                     name="loan-type"
                     className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#FA7F28]"
                   >
-                    <option value="">{t('form.select_a_loan_type')}</option>
-                    <option value="fix-flip">{t('form.fix_and_flip')}</option>
-                    <option value="bridge">{t('form.bridge_loan')}</option>
-                    <option value="construction">
-                      {t('form.ground_up_construction')}
+                    <option value="">
+                      {messages['contact']['form']['select_a_loan_type']}
                     </option>
-                    <option value="dscr">{t('form.dscr_loan')}</option>
+                    <option value="fix-flip">
+                      {messages['contact']['form']['fix_and_flip']}
+                    </option>
+                    <option value="bridge">
+                      {messages['contact']['form']['bridge_loan']}
+                    </option>
+                    <option value="construction">
+                      {messages['contact']['form']['ground_up_construction']}
+                    </option>
+                    <option value="dscr">
+                      {messages['contact']['form']['dscr_loan']}
+                    </option>
                     <option value="dscr-foreign">
-                      {t('form.dscr_foreign')}
+                      {messages['contact']['form']['dscr_foreign']}
                     </option>
                   </select>
                 </div>
@@ -140,7 +186,7 @@ export default function InquireAboutSection() {
                   htmlFor="property-address"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.property_address')} <span className="text-[#c99909]">*</span>
+                  {messages['contact']['form']['property_address']} <span className="text-[#c99909]">*</span>
                 </label>
                 <div className="mt-2.5">
                   <textarea
@@ -157,7 +203,7 @@ export default function InquireAboutSection() {
                   htmlFor="additional-info"
                   className="block text-sm/6 font-semibold text-gray-900"
                 >
-                  {t('form.additional_information')}
+                  {messages['contact']['form']['additional_information']}
                 </label>
                 <div className="mt-2.5">
                   <textarea
@@ -174,7 +220,7 @@ export default function InquireAboutSection() {
                 type="submit"
                 className="rounded-md bg-[#c99909] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#e06a15] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FA7F28]"
               >
-                {t('form.submit')}
+                {messages['contact']['form']['submit']}
               </button>
             </div>
           </div>
@@ -211,10 +257,10 @@ export default function InquireAboutSection() {
               </svg>
             </div>
             <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-              {t('form.title')}
+              {messages['contact']['form']['title']}
             </h2>
             <p className="mt-6 text-lg/8 text-gray-600">
-              {t('form.sub_title')}
+              {messages['contact']['form']['sub_title']}
             </p>
             <dl className="mt-10 space-y-4 text-base/7 text-gray-600">
               <div className="flex gap-x-4">

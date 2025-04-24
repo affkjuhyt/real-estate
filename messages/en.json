@@ -130,7 +130,9 @@
       "bridge_loan": "Bridge Loan",
       "ground_up_construction": "Ground Up Construction loan",
       "dscr_loan": "DSCR Loan",
-      "dscr_foreign": "DSCR Loan (Foreign National)"
+      "dscr_foreign": "DSCR Loan (Foreign National)",
+      "success_message": "Your message has been sent successfully!",
+      "error_message": "An error occurred while sending your message. Please try again later."
     }
   },
   "fix_flip": {

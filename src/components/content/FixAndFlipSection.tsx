@@ -3,7 +3,6 @@
 import { useRouter } from "next/navigation";
 
 export default function FixAndFlipSection({ messages }: any) {
-  console.log(messages);
   const router = useRouter();
 
   const loanTerms = [

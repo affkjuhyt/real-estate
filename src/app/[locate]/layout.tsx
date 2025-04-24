@@ -60,7 +60,6 @@ export default async function RootLayout({
       // Return 'vi' for Vietnam, 'en' for other countries
       return countryCode === 'VN' ? 'vi' : 'en';
     } catch (error) {
-      console.error('Error determining location:', error);
       return 'en'; // Default to 'en' if there's an error
     }
   };
